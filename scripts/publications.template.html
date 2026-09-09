@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publications · Noémi Kreif</title>
+  <meta name="description" content="Publications by Noémi Kreif: peer-reviewed articles, chapters and working papers on causal inference, causal machine learning and health policy evaluation.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">Noémi Kreif</a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html">About</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html" aria-current="page">Publications</a>
+      <a href="cv.html">CV</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" style="padding-bottom: 1rem;">
+    <div class="wrap" style="display:block;">
+      <p class="eyebrow">Publications</p>
+      <h1>Papers, chapters and working papers</h1>
+      <p class="lede">{{COUNT_ARTICLES}} peer-reviewed articles across health economics, health policy, epidemiology and statistics. Full and up-to-date lists are on
+        <a href="https://scholar.google.com/citations?user=L7MMYvwAAAAJ" target="_blank" rel="noopener">Google Scholar</a> and
+        <a href="https://orcid.org/0000-0001-9008-5690" target="_blank" rel="noopener">ORCID</a>.</p>
+      <nav class="pub-nav" aria-label="Sections">
+        <a href="#articles">Journal articles</a>
+        <a href="#chapters">Chapters &amp; editorials</a>
+        <a href="#working-papers">Working papers</a>
+      </nav>
+    </div>
+  </section>
+
+{{PUBLICATIONS}}
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© <span id="y">2026</span> Noémi Kreif</span>
+    <span><a href="mailto:nkreif@uw.edu">nkreif@uw.edu</a> · The CHOICE Institute, University of Washington</span>
+  </div>
+</footer>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
