@@ -271,3 +271,11 @@ section + section { border-top: 1px solid var(--line); }
 .examples a { color: var(--ink); font-family: var(--serif); font-size: 1rem; }
 .examples a:hover { color: var(--accent); }
 .examples .cite { display: block; color: var(--ink-3); font-size: .85rem; margin-top: .15rem; }
+
+/* ------------------------------------------------------------------
+   Method sketches (inline SVG)
+------------------------------------------------------------------ */
+.sketch { display: block; width: 100%; height: auto; }
+.card .sketch { max-width: 250px; margin: -.25rem 0 1rem; }
+.side .sketch { max-width: 230px; margin-top: 1.1rem; }
+.sketch text { font-family: var(--sans); }
