@@ -254,3 +254,20 @@ section + section { border-top: 1px solid var(--line); }
   .timeline li { grid-template-columns: 1fr; gap: .1rem; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .pill { transition: none; } }
+
+/* ------------------------------------------------------------------
+   Citation lists (filled by scripts/build.py)
+------------------------------------------------------------------ */
+.cite-label, .examples-label { margin-bottom: .3rem; }
+.cite-list { padding-left: 1.2rem; margin: 0; font-size: .92rem; color: var(--ink-2); }
+.cite-list li { margin-bottom: .55rem; }
+.cite-list li::marker { color: var(--highlight); }
+.cite-list a { color: var(--ink); }
+.cite-list a:hover { color: var(--accent); }
+.cite-list b { font-weight: 600; color: var(--ink); }
+.examples { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--line); }
+.examples li { padding: .6rem 0; border-bottom: 1px solid var(--line); font-size: .92rem; line-height: 1.4; }
+.examples li:last-child { border-bottom: 0; padding-bottom: 0; }
+.examples a { color: var(--ink); font-family: var(--serif); font-size: 1rem; }
+.examples a:hover { color: var(--accent); }
+.examples .cite { display: block; color: var(--ink-3); font-size: .85rem; margin-top: .15rem; }

@@ -1,5 +1,5 @@
 {
-  "_readme": "Edit this file, then run `python scripts/build.py` to regenerate publications.html and the Selected Publications list on index.html. `type` is one of: article, chapter, working. `selected: true` puts the paper on the home page. `url` may be a DOI link, arXiv link or any URL.",
+  "_readme": "Edit this file, then run `python scripts/build.py`. It regenerates publications.html, and fills the marked blocks in index.html and research.html: `selected: true` -> Selected publications on the home page; `tags` such as home1/home2/home3 -> example papers under the three research areas on the home page; strand1..strand5 -> key papers under each strand on the research page. `type` is article, chapter or working. `url` is a DOI, arXiv or other link.",
   "publications": [
     {
       "year": 2026,
@@ -7,14 +7,18 @@
       "title": "Does increasing overall health expenditure reduce inequality in under-5 mortality rates between provinces in Indonesia?",
       "authors": "Ochoa-Moreno I, Kreif N, Hidayat T, Kurnia S, Hidayat B, Griffin S",
       "venue": "Health Policy and Planning, czag081",
-      "url": "https://doi.org/10.1093/heapol/czag081"
+      "url": "https://doi.org/10.1093/heapol/czag081",
+      "tags": [
+        "strand4"
+      ]
     },
     {
       "year": 2026,
       "type": "article",
       "title": "Health care resource utilization and costs in patients with acute myeloid leukemia treated with posttransplant maintenance therapy",
       "authors": "Kneitel R, Lee K, Kreif N",
-      "venue": "Journal of Managed Care & Specialty Pharmacy, 32(8), 932–944"
+      "venue": "Journal of Managed Care & Specialty Pharmacy, 32(8), 932–944",
+      "url": "https://doi.org/10.18553/jmcp.2026.32.8.932"
     },
     {
       "year": 2025,
@@ -23,7 +27,11 @@
       "authors": "Shah V, Jones AM, Malenica I, Hidayat T, Kreif N",
       "venue": "Health Economics, 34(12), 2270–2296",
       "url": "https://doi.org/10.1002/hec.70031",
-      "selected": true
+      "selected": true,
+      "tags": [
+        "strand2",
+        "home1"
+      ]
     },
     {
       "year": 2026,
@@ -38,14 +46,16 @@
       "type": "article",
       "title": "Key factors behind the adoption of a patient-facing technology in primary care: a structured approach to variable importance",
       "authors": "Rodrigues D, Kreif N, Darzi A, Barahona M, Mayer E",
-      "venue": "Health Services and Outcomes Research Methodology"
+      "venue": "Health Services and Outcomes Research Methodology",
+      "url": "https://doi.org/10.1007/s10742-025-00361-w"
     },
     {
       "year": 2025,
       "type": "article",
       "title": "Transferability of real world evidence to support HTA recommendations in lower income European countries",
       "authors": "Kaló Z, Petrova G, Németh B, Došenović Bonča P, Delnoij D, Bennett A, Tachkov K, Zhang Y, Kreif N, Knies S, Lipska I",
-      "venue": "Health Science Reports"
+      "venue": "Health Science Reports",
+      "url": "https://doi.org/10.1002/hsr2.71534"
     },
     {
       "year": 2026,
@@ -53,7 +63,10 @@
       "title": "Estimating the causal effect of realistic treatment strategies using longitudinal observational data",
       "authors": "Zhang Y, Bennett A, Manca A, Mittelman M, Hoeks M, Smith A, Taylor A, Stauder R, de Witte T, Malcovati L, van Marrewijk C, Kreif N",
       "venue": "Medical Decision Making, 46(2), 144–157",
-      "url": "https://doi.org/10.1177/0272989X251379819"
+      "url": "https://doi.org/10.1177/0272989X251379819",
+      "tags": [
+        "home2"
+      ]
     },
     {
       "year": 2025,
@@ -69,7 +82,11 @@
       "title": "Digitalisation of access to primary care: is there an equity-efficiency trade-off?",
       "authors": "Rodrigues D, Kreif N, Barahona M, Mayer E",
       "venue": "Health Economics",
-      "url": "https://doi.org/10.1002/hec.70014"
+      "url": "https://doi.org/10.1002/hec.70014",
+      "tags": [
+        "strand3",
+        "home3"
+      ]
     },
     {
       "year": 2025,
@@ -84,14 +101,18 @@
       "type": "article",
       "title": "Public policies and femicides during the COVID-19 pandemic",
       "authors": "Diaz MD, Pereda P, Rocha F, Oliveira P, Árabe I, Kreif N, Lordemus S, Moreno-Serra R",
-      "venue": "Economics and Human Biology, 58, 101508"
+      "venue": "Economics and Human Biology, 58, 101508",
+      "tags": [
+        "strand5"
+      ]
     },
     {
       "year": 2025,
       "type": "article",
       "title": "Health facility quality peer effects: are financial incentives necessary?",
       "authors": "McGuire F, Santos R, Smith PC, Stacey N, Edoka I, Kreif N",
-      "venue": "Regional Science and Urban Economics, 112, 104091"
+      "venue": "Regional Science and Urban Economics, 112, 104091",
+      "url": "https://doi.org/10.1016/j.regsciurbeco.2025.104091"
     },
     {
       "year": 2025,
@@ -99,21 +120,33 @@
       "title": "Psychological distress in adolescence and later economic and health outcomes in the US population",
       "authors": "Counts NZ, Kreif N, Creedon TB, Bloom DE",
       "venue": "PLOS Medicine, 22(1), e1004506",
-      "url": "https://doi.org/10.1371/journal.pmed.1004506"
+      "url": "https://doi.org/10.1371/journal.pmed.1004506",
+      "tags": [
+        "strand5",
+        "home3"
+      ]
     },
     {
       "year": 2025,
       "type": "article",
       "title": "Do health care quality improvement policies work for all? Distributional effects by baseline quality in South Africa",
       "authors": "McGuire F, Smith PC, Stacey N, Edoka I, Kreif N",
-      "venue": "Health Economics, 34(1), 175–199"
+      "venue": "Health Economics, 34(1), 175–199",
+      "url": "https://doi.org/10.1002/hec.4899",
+      "tags": [
+        "strand4"
+      ]
     },
     {
       "year": 2024,
       "type": "article",
       "title": "Machine learning methods to estimate individualized treatment effects for use in health technology assessment",
       "authors": "Zhang Y, Kreif N, Gc VS, Manca A",
-      "venue": "Medical Decision Making, 44(7), 756–769"
+      "venue": "Medical Decision Making, 44(7), 756–769",
+      "url": "https://doi.org/10.1177/0272989x241263356",
+      "tags": [
+        "strand2"
+      ]
     },
     {
       "year": 2024,
@@ -122,42 +155,60 @@
       "authors": "Glynn D, Giardina J, Hatamyar J, Pandya A, Soares M, Kreif N",
       "venue": "Health Economics, 33(8), 1772–1792",
       "url": "https://doi.org/10.1002/hec.4834",
-      "selected": true
+      "selected": true,
+      "tags": [
+        "strand2",
+        "home1"
+      ]
     },
     {
       "year": 2024,
       "type": "article",
       "title": "Public healthcare financing during counterinsurgency efforts: evidence from Colombia",
       "authors": "Lordemus S, Kreif N, Moreno-Serra R",
-      "venue": "Oxford Bulletin of Economics and Statistics, 86(5), 1230–1259"
+      "venue": "Oxford Bulletin of Economics and Statistics, 86(5), 1230–1259",
+      "url": "https://doi.org/10.1111/obes.12603",
+      "tags": [
+        "strand5"
+      ]
     },
     {
       "year": 2024,
       "type": "article",
       "title": "The effect of conflict-related violence intensity and alcohol use on mental health: the case of Colombia",
       "authors": "Salas-Ortiz A, Moreno-Serra R, Kreif N, Suhrcke M, Casas G",
-      "venue": "SSM – Population Health, 101626"
+      "venue": "SSM – Population Health, 101626",
+      "url": "https://doi.org/10.1016/j.ssmph.2024.101626"
     },
     {
       "year": 2024,
       "type": "article",
       "title": "COVID-19 and violence against women: current knowledge, gaps, and implications for public policy",
       "authors": "Rocha F, Diaz MD, Pereda PC, Árabe IB, Cavalcanti F, Lordemus S, Kreif N, Moreno-Serra R",
-      "venue": "World Development, 174, 106461"
+      "venue": "World Development, 174, 106461",
+      "url": "https://doi.org/10.1016/j.worlddev.2023.106461",
+      "tags": [
+        "strand5"
+      ]
     },
     {
       "year": 2022,
       "type": "article",
       "title": "Estimating the health effects of expansions in health expenditure in Indonesia: a dynamic panel data approach",
       "authors": "Moler-Zapata S, Kreif N, Ochalek J, Mirelman AJ, Nadjib M, Suhrcke M",
-      "venue": "Applied Health Economics and Health Policy"
+      "venue": "Applied Health Economics and Health Policy",
+      "url": "https://doi.org/10.1007/s40258-022-00752-x",
+      "tags": [
+        "strand4"
+      ]
     },
     {
       "year": 2022,
       "type": "article",
       "title": "Reflection on modern methods: constructing directed acyclic graphs (DAGs) with domain experts for health services research",
       "authors": "Rodrigues D, Kreif N, Lawrence-Jones A, Barahona M, Mayer E",
-      "venue": "International Journal of Epidemiology, 51(4), 1339–1348"
+      "venue": "International Journal of Epidemiology, 51(4), 1339–1348",
+      "url": "https://doi.org/10.1093/ije/dyac135"
     },
     {
       "year": 2022,
@@ -165,28 +216,41 @@
       "title": "Machine learning methods in health economics and outcomes research — the PALISADE checklist: a good practices report of an ISPOR task force",
       "authors": "Padula WV, Kreif N, Vanness DJ, Adamson B, Rueda JD, Felizzi F, et al.",
       "venue": "Value in Health, 25(7), 1063–1080",
-      "selected": true
+      "selected": true,
+      "url": "https://doi.org/10.1016/j.jval.2022.03.022",
+      "tags": [
+        "strand2"
+      ]
     },
     {
       "year": 2022,
       "type": "article",
       "title": "The long-run effects of diagnosis related group payment on hospital lengths of stay in a publicly funded health care system: evidence from 15 years of micro data",
       "authors": "Aragón MJ, Chalkley M, Kreif N",
-      "venue": "Health Economics, 31(6), 956–972"
+      "venue": "Health Economics, 31(6), 956–972",
+      "url": "https://doi.org/10.1002/hec.4479",
+      "tags": [
+        "strand3"
+      ]
     },
     {
       "year": 2022,
       "type": "article",
       "title": "Formalising triage in general practice towards a more equitable, safe, and efficient allocation of resources",
       "authors": "Rodrigues D, Kreif N, Saravanakumar K, Delaney B, Barahona M, et al.",
-      "venue": "BMJ, 377"
+      "venue": "BMJ, 377",
+      "url": "https://doi.org/10.1136/bmj-2022-070757",
+      "tags": [
+        "strand3"
+      ]
     },
     {
       "year": 2022,
       "type": "article",
       "title": "Propensity score methods for comparative-effectiveness analysis: a case study of direct oral anticoagulants in the atrial fibrillation population",
       "authors": "Ciminata G, Geue C, Wu O, Deidda M, Kreif N, Langhorne P",
-      "venue": "PLOS ONE, 17(1), e0262293"
+      "venue": "PLOS ONE, 17(1), e0262293",
+      "url": "https://doi.org/10.1371/journal.pone.0262293"
     },
     {
       "year": 2021,
@@ -194,35 +258,49 @@
       "title": "Estimating heterogeneous policy impacts using causal machine learning: a case study of health insurance reform in Indonesia",
       "authors": "Kreif N, DiazOrdaz K, Moreno-Serra R, Mirelman A, Hidayat T, Suhrcke M",
       "venue": "Health Services and Outcomes Research Methodology",
-      "selected": true
+      "selected": true,
+      "url": "https://doi.org/10.1007/s10742-021-00259-3",
+      "tags": [
+        "strand2"
+      ]
     },
     {
       "year": 2021,
       "type": "article",
       "title": "The impact of civil conflict on child health: evidence from Colombia",
       "authors": "Kreif N, Mirelman A, Suhrcke M, Buitrago G, Moreno-Serra R",
-      "venue": "Economics & Human Biology, 101074"
+      "venue": "Economics & Human Biology, 101074",
+      "url": "https://doi.org/10.1016/j.ehb.2021.101074",
+      "tags": [
+        "strand5"
+      ]
     },
     {
       "year": 2021,
       "type": "article",
       "title": "The effect of distance on maternal institutional delivery choice: evidence from Malawi",
       "authors": "McGuire F, Kreif N, Smith PC",
-      "venue": "Health Economics"
+      "venue": "Health Economics",
+      "url": "https://doi.org/10.1002/hec.4368",
+      "tags": [
+        "strand4"
+      ]
     },
     {
       "year": 2021,
       "type": "article",
       "title": "A light of hope? Inequalities in mental health before and after the peace agreement in Colombia: a decomposition analysis",
       "authors": "León-Giraldo S, Casas G, Cuervo-Sánchez JS, González-Uribe C, Olmos A, Kreif N, Suhrcke M, Bernal O, Moreno-Serra R",
-      "venue": "International Journal for Equity in Health, 20(39)"
+      "venue": "International Journal for Equity in Health, 20(39)",
+      "url": "https://doi.org/10.1186/s12939-021-01381-x"
     },
     {
       "year": 2021,
       "type": "article",
       "title": "Inequalities in catastrophic health expenditures in conflict-affected areas and the Colombian peace agreement: an Oaxaca–Blinder change decomposition analysis",
       "authors": "León-Giraldo S, Cuervo-Sánchez JS, Casas G, González-Uribe C, Kreif N, Bernal O, Moreno-Serra R",
-      "venue": "International Journal for Equity in Health, 20(1), 217"
+      "venue": "International Journal for Equity in Health, 20(1), 217",
+      "url": "https://doi.org/10.1186/s12939-021-01555-7"
     },
     {
       "year": 2021,
@@ -230,7 +308,10 @@
       "title": "Facility standards and the quality of public sector primary care: evidence from South Africa's \"Ideal Clinics\"",
       "authors": "Stacey N, Edoka I, Suhrcke M, Kreif N, Mirelman A, Hoffman K",
       "venue": "Health Economics",
-      "url": "https://doi.org/10.1002/hec.4228"
+      "url": "https://doi.org/10.1002/hec.4228",
+      "tags": [
+        "strand4"
+      ]
     },
     {
       "year": 2021,
@@ -245,7 +326,8 @@
       "type": "article",
       "title": "What next after GDP-based cost-effectiveness thresholds?",
       "authors": "Chi YL, Blecher M, Chalkidou K, Culyer A, Claxton K, Edoka I, Glassman A, Kreif N, et al.",
-      "venue": "Gates Open Research"
+      "venue": "Gates Open Research",
+      "url": "https://doi.org/10.12688/gatesopenres.13201.1"
     },
     {
       "year": 2021,
@@ -254,14 +336,22 @@
       "authors": "Kreif N, Sofrygin O, Schmittdiel J, Adams A, Grant R, Zhu Z, van der Laan M, Neugebauer R",
       "venue": "Biometrics, 77(1), 329–342",
       "url": "https://doi.org/10.1111/biom.13271",
-      "selected": true
+      "selected": true,
+      "tags": [
+        "strand1",
+        "home2"
+      ]
     },
     {
       "year": 2020,
       "type": "article",
       "title": "A comparison of methods for health policy evaluation with controlled pre-post designs",
       "authors": "O'Neill S, Kreif N, Sutton M, Grieve R",
-      "venue": "Health Services Research, 55(2), 328–338"
+      "venue": "Health Services Research, 55(2), 328–338",
+      "url": "https://doi.org/10.1111/1475-6773.13274",
+      "tags": [
+        "strand3"
+      ]
     },
     {
       "year": 2020,
@@ -275,28 +365,38 @@
       "type": "article",
       "title": "Paying for efficiency: incentivising same-day discharges in the English NHS",
       "authors": "Gaughan J, Gutacker N, Grašič K, Kreif N, Siciliani L, Street A",
-      "venue": "Journal of Health Economics, 68, 102226"
+      "venue": "Journal of Health Economics, 68, 102226",
+      "url": "https://doi.org/10.1016/j.jhealeco.2019.102226",
+      "tags": [
+        "strand3"
+      ]
     },
     {
       "year": 2019,
       "type": "article",
       "title": "A framework for conducting economic evaluations alongside natural experiments",
       "authors": "Deidda M, Geue C, Kreif N, Dundas R, McIntosh E",
-      "venue": "Social Science & Medicine, 220, 353–361"
+      "venue": "Social Science & Medicine, 220, 353–361",
+      "url": "https://doi.org/10.1016/j.socscimed.2018.11.032"
     },
     {
       "year": 2017,
       "type": "article",
       "title": "Estimating the comparative effectiveness of feeding interventions in the pediatric intensive care unit: a demonstration of longitudinal targeted maximum likelihood estimation",
       "authors": "Kreif N, Tran L, Grieve R, De Stavola B, Tasker RC, Petersen M",
-      "venue": "American Journal of Epidemiology, 186(12), 1370–1379"
+      "venue": "American Journal of Epidemiology, 186(12), 1370–1379",
+      "url": "https://doi.org/10.1093/aje/kwx213",
+      "tags": [
+        "strand1"
+      ]
     },
     {
       "year": 2016,
       "type": "article",
       "title": "Estimating causal effects: considering three alternatives to difference-in-differences estimation",
       "authors": "O'Neill S, Kreif N, Grieve R, Sutton M, Sekhon JS",
-      "venue": "Health Services and Outcomes Research Methodology, 1, 1–21"
+      "venue": "Health Services and Outcomes Research Methodology, 1, 1–21",
+      "url": "https://doi.org/10.1007/s10742-016-0146-8"
     },
     {
       "year": 2016,
@@ -304,7 +404,11 @@
       "title": "Examination of the synthetic control method for evaluating health policies with multiple treated units",
       "authors": "Kreif N, Grieve R, Hangartner D, Turner AJ, Nikolova S, Sutton M",
       "venue": "Health Economics, 25, 1514–1528",
-      "selected": true
+      "selected": true,
+      "url": "https://doi.org/10.1002/hec.3258",
+      "tags": [
+        "strand3"
+      ]
     },
     {
       "year": 2016,
@@ -312,21 +416,27 @@
       "title": "Evaluating treatment effectiveness under model misspecification: a comparison of targeted maximum likelihood estimation with bias-corrected matching",
       "authors": "Kreif N, Grieve R, Radice R, Gruber S, Sekhon JS",
       "venue": "Statistical Methods in Medical Research, 25(5), 2315–2336",
-      "selected": true
+      "selected": true,
+      "url": "https://doi.org/10.1177/0962280214521341",
+      "tags": [
+        "strand1"
+      ]
     },
     {
       "year": 2015,
       "type": "article",
       "title": "Evaluation of the effect of a continuous treatment: a machine learning approach with an application to treatment for traumatic brain injury",
       "authors": "Kreif N, Grieve R, Díaz I, Harrison D",
-      "venue": "Health Economics, 24(9), 1213–1228"
+      "venue": "Health Economics, 24(9), 1213–1228",
+      "url": "https://doi.org/10.1002/hec.3189"
     },
     {
       "year": 2014,
       "type": "article",
       "title": "Health-related quality-of-life of people with HIV in the era of combination antiretroviral treatment: a cross-sectional comparison with the general population",
       "authors": "Miners A, Phillips A, Kreif N, Rodger A, Speakman A, Fisher M, et al.",
-      "venue": "The Lancet HIV, 1(1), e32–e40"
+      "venue": "The Lancet HIV, 1(1), e32–e40",
+      "url": "https://doi.org/10.1016/s2352-3018(14)70018-9"
     },
     {
       "year": 2013,
@@ -340,56 +450,70 @@
       "type": "article",
       "title": "Overview of parametric survival analysis for health-economic applications",
       "authors": "Ishak KJ, Kreif N, Benedict A, Muszbek N",
-      "venue": "PharmacoEconomics, 31(8), 663–675"
+      "venue": "PharmacoEconomics, 31(8), 663–675",
+      "url": "https://doi.org/10.1007/s40273-013-0064-3"
     },
     {
       "year": 2013,
       "type": "article",
       "title": "Statistical methods for cost-effectiveness analyses that use observational data: a critical appraisal tool and review of current practice",
       "authors": "Kreif N, Grieve R, Sadique ZM",
-      "venue": "Health Economics, 22(4), 486–500"
+      "venue": "Health Economics, 22(4), 486–500",
+      "url": "https://doi.org/10.1002/hec.2806",
+      "tags": [
+        "strand1"
+      ]
     },
     {
       "year": 2012,
       "type": "article",
       "title": "Methods for estimating subgroup effects in cost-effectiveness analyses that use observational data",
       "authors": "Kreif N, Grieve R, Sadique ZM, Radice R, Ramsahai R, Sekhon JS",
-      "venue": "Medical Decision Making, 32(6), 750–763"
+      "venue": "Medical Decision Making, 32(6), 750–763",
+      "url": "https://doi.org/10.1177/0272989x12448929",
+      "tags": [
+        "strand1"
+      ]
     },
     {
       "year": 2012,
       "type": "article",
       "title": "Modeling survival in hepatocellular carcinoma",
       "authors": "Muszbek N, Kreif N, Valderrama A, Benedict A, Ishak J, Ross P",
-      "venue": "Current Medical Research and Opinion, 28(7), 1141–1153"
+      "venue": "Current Medical Research and Opinion, 28(7), 1141–1153",
+      "url": "https://doi.org/10.1185/03007995.2012.691422"
     },
     {
       "year": 2012,
       "type": "article",
       "title": "Evaluating treatment effectiveness in patient subgroups: a comparison of propensity score methods with an automated matching approach",
       "authors": "Radice R, Ramsahai R, Grieve R, Kreif N, Sadique ZM, Sekhon JS",
-      "venue": "International Journal of Biostatistics, 8(1), 25"
+      "venue": "International Journal of Biostatistics, 8(1), 25",
+      "url": "https://doi.org/10.1515/1557-4679.1382"
     },
     {
       "year": 2011,
       "type": "article",
       "title": "Cost-effectiveness evaluation of sunitinib as first-line targeted therapy for metastatic renal cell carcinoma in Spain",
       "authors": "Calvo Aller E, Rey PM, Kreif N, et al.",
-      "venue": "Clinical and Translational Oncology, 13(12), 869–877"
+      "venue": "Clinical and Translational Oncology, 13(12), 869–877",
+      "url": "https://doi.org/10.1007/s12094-011-0748-0"
     },
     {
       "year": 2010,
       "type": "article",
       "title": "Cost-effectiveness analysis of anastrozole versus tamoxifen in adjuvant therapy for early-stage breast cancer: a health-economic analysis based on the 100-month analysis of the ATAC trial and the German health system",
       "authors": "Lux MP, Wöckel A, Benedict A, Buchholz S, Kreif N, et al.",
-      "venue": "Onkologie, 33(4), 155–166"
+      "venue": "Onkologie, 33(4), 155–166",
+      "url": "https://doi.org/10.1159/000286233"
     },
     {
       "year": 2009,
       "type": "article",
       "title": "Quality of life and drug costs associated with switching antipsychotic medication to once-daily extended release quetiapine fumarate in patients with schizophrenia",
       "authors": "Järbrink K, Kreif N, Benedict A, Locklear J",
-      "venue": "Current Medical Research and Opinion, 25(3), 709–716"
+      "venue": "Current Medical Research and Opinion, 25(3), 709–716",
+      "url": "https://doi.org/10.1185/03007990902738810"
     },
     {
       "year": 2026,
@@ -397,7 +521,8 @@
       "title": "Machine learning for causal inference: opportunities and pitfalls",
       "authors": "Hatamyar J, Kreif N",
       "venue": "Oxford Research Encyclopedia of Economics and Finance, Oxford University Press",
-      "note": "forthcoming"
+      "url": "https://academic.oup.com/edited-volume/61801/chapter-abstract/568695652",
+      "selected": true
     },
     {
       "year": 2026,
@@ -412,14 +537,16 @@
       "type": "chapter",
       "title": "Learning from an association analysis using propensity scores",
       "authors": "Kreif N",
-      "venue": "Pediatric Critical Care Medicine, 22(12), 1088–1092 (invited editorial)"
+      "venue": "Pediatric Critical Care Medicine, 22(12), 1088–1092 (invited editorial)",
+      "url": "https://doi.org/10.1097/pcc.0000000000002842"
     },
     {
       "year": 2021,
       "type": "chapter",
       "title": "Machine learning for causal inference: estimating heterogeneous treatment effects",
       "authors": "Shah V, Kreif N, Jones AM",
-      "venue": "In: Edward Elgar Handbook in Empirical Microeconomics"
+      "venue": "In: Edward Elgar Handbook in Empirical Microeconomics",
+      "url": "https://doi.org/10.4337/9781788976480.00025"
     },
     {
       "year": 2019,
@@ -486,7 +613,10 @@
       "title": "Policy learning with rare outcomes",
       "authors": "Hatamyar J, Kreif N",
       "venue": "arXiv:2302.05260",
-      "url": "https://arxiv.org/abs/2302.05260"
+      "url": "https://arxiv.org/abs/2302.05260",
+      "tags": [
+        "strand2"
+      ]
     }
   ]
 }
