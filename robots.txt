@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nkreif.github.io/sitemap.xml
