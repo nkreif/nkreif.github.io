@@ -20,7 +20,7 @@
       <a href="index.html">About</a>
       <a href="research.html">Research</a>
       <a href="publications.html" aria-current="page">Publications</a>
-      <a href="cv.html">CV</a>
+      <a href="assets/Kreif_CV.pdf" target="_blank" rel="noopener">CV (PDF)</a>
     </nav>
   </div>
 </header>
@@ -33,11 +33,16 @@
       <p class="lede">Peer-reviewed articles, chapters and working papers. Full and up-to-date lists are on
         <a href="https://scholar.google.com/citations?user=L7MMYvwAAAAJ" target="_blank" rel="noopener">Google Scholar</a> and
         <a href="https://orcid.org/0000-0001-9008-5690" target="_blank" rel="noopener">ORCID</a>.</p>
-      <nav class="pub-nav" aria-label="Sections">
-        <a href="#articles">Journal articles</a>
-        <a href="#chapters">Chapters &amp; editorials</a>
-        <a href="#working-papers">Working papers</a>
-      </nav>
+      <div class="topic-filter view-switch" role="group" aria-label="Arrange publications">
+        <span class="filter-label">Arrange</span>
+        <button type="button" class="chip" data-view="type" aria-pressed="true">By type and year</button>
+        <button type="button" class="chip" data-view="theme" aria-pressed="false">By research theme</button>
+      </div>
+      <div class="topic-filter topics" role="group" aria-label="Filter by research theme">
+        <span class="filter-label">Theme</span>
+        {{TOPICS}}
+      </div>
+      <p class="legend"><b>Kreif N</b> in bold. <sup class="trainee">‡</sup> Student or trainee co-author: a student or postdoctoral researcher I supervised or advised.</p>
     </div>
   </section>
 
@@ -50,6 +55,42 @@
     <span><a href="mailto:nkreif@uw.edu">nkreif@uw.edu</a> · The CHOICE Institute, University of Washington</span>
   </div>
 </footer>
-<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+<script>
+document.getElementById('y').textContent = new Date().getFullYear();
+// Two arrangements of the same list (by type, by research theme) and a theme filter that works in both.
+var state = { view: location.hash === '#by-theme' ? 'theme' : 'type', topic: '' };
+function render() {
+  document.querySelectorAll('.view').forEach(function (v) { v.hidden = v.dataset.view !== state.view; });
+  document.querySelectorAll('.view-switch .chip').forEach(function (b) {
+    b.setAttribute('aria-pressed', b.dataset.view === state.view ? 'true' : 'false');
+  });
+  document.querySelectorAll('.topics .chip').forEach(function (b) {
+    b.setAttribute('aria-pressed', b.dataset.topic === state.topic ? 'true' : 'false');
+  });
+  document.querySelectorAll('.pub-list .pub').forEach(function (li) {
+    li.hidden = !!state.topic && (li.dataset.topics || '').split(' ').indexOf(state.topic) < 0;
+  });
+  document.querySelectorAll('.view section[id]').forEach(function (sec) {
+    sec.hidden = !sec.querySelector('.pub:not([hidden])');
+  });
+}
+document.querySelectorAll('.view-switch .chip').forEach(function (b) {
+  b.addEventListener('click', function () { state.view = b.dataset.view; render(); });
+});
+document.querySelectorAll('.topics .chip').forEach(function (b) {
+  b.addEventListener('click', function () { state.topic = b.dataset.topic; render(); });
+});
+render();
+</script>
+<script>
+// Open each page at the top, except for links to a section (#...) and Back/Forward navigation.
+(function () {
+  var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+  if (location.hash || (nav && nav.type === 'back_forward')) return;
+  var top = function () { window.scrollTo(0, 0); };
+  top();
+  window.addEventListener('load', top);
+})();
+</script>
 </body>
 </html>

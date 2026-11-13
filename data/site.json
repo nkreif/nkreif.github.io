@@ -1,0 +1,357 @@
+{
+  "_readme": "Website-only details for publications, keyed by the CV publication id (cv/data/publications.yaml). title: sentence-case title shown on the site; selected: show on the home page; tags: research-page blocks (home1-3, strand1-5); takeaway: one plain-language sentence; links: extra buttons (Preprint, Code, Software, Slides, Policy brief); hide: leave off the site. Then run: python scripts/sync_from_cv.py && python scripts/build.py",
+  "entries": {
+    "yip2026healthcare": {
+      "title": "Healthcare utilization and cost associated with depression among people with Alzheimer's disease: a retrospective cohort analysis"
+    },
+    "nwogu2026real": {
+      "title": "Real-world comparative effectiveness of abiraterone, apalutamide, enzalutamide, and docetaxel doublets for metastatic hormone-sensitive prostate cancer"
+    },
+    "ochoa-moreno2026increasing": {
+      "title": "Does increasing overall health expenditure reduce inequality in under-5 mortality rates between provinces in Indonesia?",
+      "tags": [
+        "strand4"
+      ]
+    },
+    "kneitel2026care": {
+      "title": "Health care resource utilization and costs in patients with acute myeloid leukemia treated with posttransplant maintenance therapy"
+    },
+    "shah2025policy": {
+      "title": "Using policy learning to inform health insurance targeting: a case study of Indonesia",
+      "selected": true,
+      "tags": [
+        "strand2",
+        "home1",
+        "tailoring"
+      ],
+      "takeaway": "Using Indonesian survey data, we show that assigning households to the two subsidized health insurance programs with an optimal policy rule would lower the expected risk of catastrophic health expenditure compared with the current assignment, with and without a budget constraint."
+    },
+    "shah2026exploring": {
+      "title": "Exploring the heterogeneous impacts of Indonesia's conditional cash transfer scheme (PKH) on maternal health care utilisation using instrumental causal forests",
+      "links": [
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/abs/2501.12803"
+        }
+      ]
+    },
+    "rodrigues2026factors": {
+      "title": "Key factors behind the adoption of a patient-facing technology in primary care: a structured approach to variable importance"
+    },
+    "kalo2026transferability": {
+      "title": "Transferability of real world evidence to support HTA recommendations in lower income European countries"
+    },
+    "zhang2026causal": {
+      "title": "Estimating the causal effect of realistic treatment strategies using longitudinal observational data",
+      "tags": [
+        "home2"
+      ]
+    },
+    "shah2025heterogeneous": {
+      "title": "Estimating heterogeneous impacts of subsidised health insurance: a causal machine learning approach",
+      "tags": [
+        "tailoring"
+      ]
+    },
+    "rodrigues2025digitalization": {
+      "title": "Digitalisation of access to primary care: is there an equity-efficiency trade-off?",
+      "tags": [
+        "strand3",
+        "home3"
+      ]
+    },
+    "paton2026impact": {
+      "title": "The impact of physical activity on psychological distress in young people: an analysis of longitudinal data from the Millennium Cohort Study using causal machine learning"
+    },
+    "mcguire2025facility": {
+      "title": "Health facility quality peer effects: are financial incentives necessary?"
+    },
+    "counts2025psychological": {
+      "title": "Psychological distress in adolescence and later economic and health outcomes in the US population",
+      "tags": [
+        "strand5",
+        "home3"
+      ]
+    },
+    "mcguire2025care": {
+      "title": "Do health care quality improvement policies work for all? Distributional effects by baseline quality in South Africa",
+      "tags": [
+        "strand4"
+      ]
+    },
+    "zhang2024machine": {
+      "title": "Machine learning methods to estimate individualized treatment effects for use in health technology assessment",
+      "tags": [
+        "strand2"
+      ]
+    },
+    "glynn2024integrating": {
+      "title": "Integrating decision modeling and machine learning to inform treatment stratification",
+      "selected": true,
+      "tags": [
+        "strand2",
+        "home1",
+        "tailoring"
+      ],
+      "takeaway": "We combine machine learning estimates of treatment-effect heterogeneity with a decision model and show, using the SPRINT blood pressure trial, that stratifying treatment by subgroups found with policy trees can increase incremental net health benefit."
+    },
+    "lordemus2024public": {
+      "title": "Public healthcare financing during counterinsurgency efforts: evidence from Colombia",
+      "tags": [
+        "strand5"
+      ]
+    },
+    "salas-ortiz2024effect": {
+      "title": "The effect of conflict-related violence intensity and alcohol use on mental health: the case of Colombia"
+    },
+    "rocha2024covid": {
+      "title": "COVID-19 and violence against women: current knowledge, gaps, and implications for public policy",
+      "tags": [
+        "strand5"
+      ]
+    },
+    "moler-zapata2022effects": {
+      "title": "Estimating the health effects of expansions in health expenditure in Indonesia: a dynamic panel data approach",
+      "tags": [
+        "strand4"
+      ]
+    },
+    "rodrigues2022reflection": {
+      "title": "Reflection on modern methods: constructing directed acyclic graphs (DAGs) with domain experts for health services research"
+    },
+    "padula2022machine": {
+      "title": "Machine learning methods in health economics and outcomes research — the PALISADE checklist: a good practices report of an ISPOR task force",
+      "selected": true,
+      "tags": [
+        "strand2"
+      ],
+      "takeaway": "An ISPOR task force report that sets out the PALISADE checklist of good practices for using machine learning in health economics and outcomes research."
+    },
+    "aragon2022long": {
+      "title": "The long-run effects of diagnosis related group payment on hospital lengths of stay in a publicly funded health care system: evidence from 15 years of micro data",
+      "tags": [
+        "strand3"
+      ]
+    },
+    "rodrigues2022formalising": {
+      "title": "Formalising triage in general practice towards a more equitable, safe, and efficient allocation of resources",
+      "tags": [
+        "strand3"
+      ]
+    },
+    "ciminata2022propensity": {
+      "title": "Propensity score methods for comparative-effectiveness analysis: a case study of direct oral anticoagulants in the atrial fibrillation population"
+    },
+    "kreif2022heterogeneous": {
+      "title": "Estimating heterogeneous policy impacts using causal machine learning: a case study of health insurance reform in Indonesia",
+      "selected": true,
+      "tags": [
+        "strand2"
+      ],
+      "takeaway": "Using causal forests, we find that the benefits of contributory health insurance for maternal health care and infant mortality in Indonesia were larger for poorer, less educated and rural women, and varied by region."
+    },
+    "kreif2022impact": {
+      "title": "The impact of civil conflict on child health: evidence from Colombia",
+      "tags": [
+        "strand5"
+      ]
+    },
+    "mcguire2021effect": {
+      "title": "The effect of distance on maternal institutional delivery choice: evidence from Malawi",
+      "tags": [
+        "strand4"
+      ]
+    },
+    "leon-giraldo2021light": {
+      "title": "A light of hope? Inequalities in mental health before and after the peace agreement in Colombia: a decomposition analysis"
+    },
+    "leon-giraldo2021inequalities": {
+      "title": "Inequalities in catastrophic health expenditures in conflict-affected areas and the Colombian peace agreement: an Oaxaca–Blinder change decomposition analysis"
+    },
+    "stacey2021facility": {
+      "title": "Facility standards and the quality of public sector primary care: evidence from South Africa's \"Ideal Clinics\"",
+      "tags": [
+        "strand4"
+      ]
+    },
+    "kreif2021impact": {
+      "title": "From impact evaluation to decision-analysis: assessing the extent and quality of evidence on 'value for money' in health impact evaluations in low- and middle-income countries",
+      "url": "https://gatesopenresearch.org/articles/5-1/v1"
+    },
+    "chi2020next": {
+      "title": "What next after GDP-based cost-effectiveness thresholds?"
+    },
+    "kreif2021exploiting": {
+      "title": "Exploiting non-systematic covariate monitoring to broaden the scope of evidence about the causal effects of adaptive treatment strategies",
+      "selected": true,
+      "tags": [
+        "strand1",
+        "home2"
+      ],
+      "links": [
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/abs/1806.11153"
+        }
+      ],
+      "takeaway": "Using electronic health records of patients with type 2 diabetes, we show how variation in covariate monitoring can be used to evaluate joint treatment and monitoring strategies, and compare two inverse probability weighting estimators."
+    },
+    "o'neill2020comparison": {
+      "title": "A comparison of methods for health policy evaluation with controlled pre-post designs",
+      "tags": [
+        "strand3"
+      ]
+    },
+    "diazordaz2020data": {
+      "title": "Data-adaptive doubly robust instrumental variable methods for treatment effect heterogeneity"
+    },
+    "gaughan2019paying": {
+      "title": "Paying for efficiency: incentivising same-day discharges in the English NHS",
+      "tags": [
+        "strand3"
+      ]
+    },
+    "deidda2019framework": {
+      "title": "A framework for conducting economic evaluations alongside natural experiments"
+    },
+    "kreif2017comparative": {
+      "title": "Estimating the comparative effectiveness of feeding interventions in the pediatric intensive care unit: a demonstration of longitudinal targeted maximum likelihood estimation",
+      "tags": [
+        "strand1"
+      ]
+    },
+    "oneill2016causal": {
+      "title": "Estimating causal effects: considering three alternatives to difference-in-differences estimation"
+    },
+    "kreif2016examination": {
+      "title": "Examination of the synthetic control method for evaluating health policies with multiple treated units",
+      "selected": true,
+      "tags": [
+        "strand3"
+      ],
+      "takeaway": "We extend the synthetic control method to policies with multiple treated units; re-analyzing a hospital pay-for-performance scheme, we find no significant reduction in mortality for the incentivized conditions, in contrast to the earlier difference-in-differences analysis."
+    },
+    "kreif2016treatment": {
+      "title": "Evaluating treatment effectiveness under model misspecification: a comparison of targeted maximum likelihood estimation with bias-corrected matching",
+      "selected": true,
+      "tags": [
+        "strand1"
+      ],
+      "takeaway": "In simulations grounded in an evaluation of hip prostheses, bias-corrected matching had less bias but higher variance than targeted maximum likelihood estimation, and both methods performed much better with machine learning than with misspecified parametric models."
+    },
+    "kreif2015evaluation": {
+      "title": "Evaluation of the effect of a continuous treatment: a machine learning approach with an application to treatment for traumatic brain injury"
+    },
+    "miners2014related": {
+      "title": "Health-related quality-of-life of people with HIV in the era of combination antiretroviral treatment: a cross-sectional comparison with the general population"
+    },
+    "kreif2013regression": {
+      "title": "Regression-adjusted matching and double-robust methods for estimating average treatment effects in cost-effectiveness analyses"
+    },
+    "ishak2013overview": {
+      "title": "Overview of parametric survival analysis for health-economic applications"
+    },
+    "kreif2013statistical": {
+      "title": "Statistical methods for cost-effectiveness analyses that use observational data: a critical appraisal tool and review of current practice",
+      "tags": [
+        "strand1"
+      ]
+    },
+    "kreif2012methods": {
+      "title": "Methods for estimating subgroup effects in cost-effectiveness analyses that use observational data",
+      "tags": [
+        "strand1"
+      ]
+    },
+    "muszbek2012modelling": {
+      "title": "Modeling survival in hepatocellular carcinoma"
+    },
+    "radice2012treatment": {
+      "title": "Evaluating treatment effectiveness in patient subgroups: a comparison of propensity score methods with an automated matching approach"
+    },
+    "calvo2011cost": {
+      "title": "Cost-effectiveness evaluation of sunitinib as first-line targeted therapy for metastatic renal cell carcinoma in Spain"
+    },
+    "lux2010cost": {
+      "title": "Cost-effectiveness analysis of anastrozole versus tamoxifen in adjuvant therapy for early-stage breast cancer: a health-economic analysis based on the 100-month analysis of the ATAC trial and the German health system"
+    },
+    "jarbrink2009quality": {
+      "title": "Quality of life and drug costs associated with switching antipsychotic medication to once-daily extended release quetiapine fumarate in patients with schizophrenia"
+    },
+    "hatamyar2026machine": {
+      "title": "Machine learning for causal inference: opportunities and pitfalls",
+      "selected": true,
+      "url": "https://academic.oup.com/edited-volume/61801/chapter-abstract/568695652",
+      "takeaway": "An introduction for economists to machine learning methods for causal inference, covering what they offer and their main pitfalls."
+    },
+    "powell-jackson2026difference": {
+      "title": "Difference-in-differences"
+    },
+    "kreif2021learning": {
+      "title": "Learning from an association analysis using propensity scores"
+    },
+    "shah2021machine": {
+      "title": "Machine learning for causal inference: estimating heterogeneous treatment effects"
+    },
+    "kreif2019machine": {
+      "title": "Machine learning in policy evaluation: new tools for causal inference"
+    },
+    "cussens2025fast": {
+      "title": "Fast learning of optimal policy trees",
+      "links": [
+        {
+          "label": "Software",
+          "url": "https://cran.r-project.org/package=fastpolicytree"
+        }
+      ],
+      "tags": [
+        "tailoring"
+      ]
+    },
+    "hatamyar2026policy": {
+      "title": "Policy learning in practice: simulation evidence and a case study of optimal allocation of subsidised health insurance",
+      "tags": [
+        "tailoring"
+      ]
+    },
+    "hatamyar2023machine": {
+      "title": "Machine learning for staggered difference-in-differences and dynamic treatment effect heterogeneity"
+    },
+    "hatamyar2023policy": {
+      "title": "Policy learning with rare outcomes",
+      "tags": [
+        "strand2",
+        "tailoring"
+      ]
+    },
+    "diaz2025public": {
+      "title": "Public policies and femicides during the COVID-19 pandemic: evidence from São Paulo, Brazil",
+      "tags": [
+        "strand5"
+      ]
+    },
+    "stull2014validation": {},
+    "lordemus2026depression": {
+      "hide": true
+    },
+    "shah2025exploring": {
+      "hide": true
+    },
+    "kreif2020benefits": {
+      "hide": true
+    },
+    "kreif2018evaluation": {
+      "hide": true
+    },
+    "nwogucomparative": {},
+    "lordemus2026submitted": {
+      "links": [
+        {
+          "label": "Preprint",
+          "url": "https://doi.org/10.2139/ssrn.6773071"
+        }
+      ]
+    },
+    "bennett2026haematologica": {}
+  }
+}

@@ -20,7 +20,7 @@
       <a href="index.html">About</a>
       <a href="research.html">Research</a>
       <a href="publications.html" aria-current="page">Publications</a>
-      <a href="cv.html">CV</a>
+      <a href="assets/Kreif_CV.pdf" target="_blank" rel="noopener">CV (PDF)</a>
     </nav>
   </div>
 </header>
@@ -33,442 +33,546 @@
       <p class="lede">Peer-reviewed articles, chapters and working papers. Full and up-to-date lists are on
         <a href="https://scholar.google.com/citations?user=L7MMYvwAAAAJ" target="_blank" rel="noopener">Google Scholar</a> and
         <a href="https://orcid.org/0000-0001-9008-5690" target="_blank" rel="noopener">ORCID</a>.</p>
-      <nav class="pub-nav" aria-label="Sections">
-        <a href="#articles">Journal articles</a>
-        <a href="#chapters">Chapters &amp; editorials</a>
-        <a href="#working-papers">Working papers</a>
-      </nav>
+      <div class="topic-filter view-switch" role="group" aria-label="Arrange publications">
+        <span class="filter-label">Arrange</span>
+        <button type="button" class="chip" data-view="type" aria-pressed="true">By type and year</button>
+        <button type="button" class="chip" data-view="theme" aria-pressed="false">By research theme</button>
+      </div>
+      <div class="topic-filter topics" role="group" aria-label="Filter by research theme">
+        <span class="filter-label">Theme</span>
+        <button type="button" class="chip" data-topic="" aria-pressed="true">All</button>
+        <button type="button" class="chip" data-topic="cml" aria-pressed="false">Causal machine learning for health policy evaluation</button>
+        <button type="button" class="chip" data-topic="ci" aria-pressed="false">Causal inference methods for decision science</button>
+        <button type="button" class="chip" data-topic="pe" aria-pressed="false">Health policy evaluation</button>
+        <button type="button" class="chip" data-topic="gh" aria-pressed="false">Global health policy</button>
+        <button type="button" class="chip" data-topic="heor" aria-pressed="false">Applications in health economics and outcomes research</button>
+      </div>
+      <p class="legend"><b>Kreif N</b> in bold. <sup class="trainee">‡</sup> Student or trainee co-author: a student or postdoctoral researcher I supervised or advised.</p>
     </div>
   </section>
 
+<div class="view" data-view="type">
 <section id="articles">
   <div class="wrap split">
     <div class="side">
       <h2>Peer-reviewed journal articles</h2>
     </div>
     <ul class="pub-list">
-<li class="pub">
+<li class="pub" data-topics="cml">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle">Policy learning in practice: simulation evidence and a case study of optimal allocation of subsidised health insurance</p>
+    <p class="authors">Hatamyar J<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b></p>
+    <p class="venue">Statistics in Medicine <span class="tag">accepted</span></p>
+  </div>
+</li>
+<li class="pub" data-topics="heor">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle">Healthcare utilization and cost associated with depression among people with Alzheimer&#x27;s disease: a retrospective cohort analysis</p>
+    <p class="authors">Yip O, <b>Kreif N</b>, Clayton E, Lee K</p>
+    <p class="venue">Journal of Managed Care &amp; Specialty Pharmacy <span class="tag">in press</span></p>
+  </div>
+</li>
+<li class="pub" data-topics="heor ci">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1200/op-26-00493" target="_blank" rel="noopener">Real-world comparative effectiveness of abiraterone, apalutamide, enzalutamide, and docetaxel doublets for metastatic hormone-sensitive prostate cancer</a></p>
+    <p class="authors">Nwogu IB<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b>, Khan HM, Etzioni R, Carlson JJ</p>
+    <p class="venue">JCO Oncology Practice <span class="tag">online ahead of print</span></p>
+    <p class="pub-actions"><a href="https://doi.org/10.1200/op-26-00493" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="gh pe">
   <div class="year">2026</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1093/heapol/czag081" target="_blank" rel="noopener">Does increasing overall health expenditure reduce inequality in under-5 mortality rates between provinces in Indonesia?</a></p>
     <p class="authors">Ochoa-Moreno I, <b>Kreif N</b>, Hidayat T, Kurnia S, Hidayat B, Griffin S</p>
-    <p class="venue">Health Policy and Planning, czag081</p>
+    <p class="venue">Health Policy and Planning, 41(7), 1242–1254</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1093/heapol/czag081" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="heor">
   <div class="year">2026</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.18553/jmcp.2026.32.8.932" target="_blank" rel="noopener">Health care resource utilization and costs in patients with acute myeloid leukemia treated with posttransplant maintenance therapy</a></p>
-    <p class="authors">Kneitel R, Lee K, <b>Kreif N</b></p>
+    <p class="authors">Kneitel R<sup class="trainee" title="Student or trainee co-author">‡</sup>, Lee K, <b>Kreif N</b></p>
     <p class="venue">Journal of Managed Care &amp; Specialty Pharmacy, 32(8), 932–944</p>
+    <p class="pub-actions"><a href="https://doi.org/10.18553/jmcp.2026.32.8.932" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="cml gh">
   <div class="year">2026</div>
   <div>
-    <p class="ptitle"><a href="https://arxiv.org/abs/2501.12803" target="_blank" rel="noopener">Exploring the heterogeneous impacts of Indonesia&#x27;s conditional cash transfer scheme (PKH) on maternal health care utilisation using instrumental causal forests</a></p>
-    <p class="authors">Shah V, Hatamyar J, Hidayat T, <b>Kreif N</b></p>
+    <p class="ptitle"><a href="https://doi.org/10.1007/s00181-025-02846-6" target="_blank" rel="noopener">Exploring the heterogeneous impacts of Indonesia&#x27;s conditional cash transfer scheme (PKH) on maternal health care utilisation using instrumental causal forests</a></p>
+    <p class="authors">Shah V<sup class="trainee" title="Student or trainee co-author">‡</sup>, Hatamyar J<sup class="trainee" title="Student or trainee co-author">‡</sup>, Hidayat T, <b>Kreif N</b></p>
     <p class="venue">Empirical Economics, 70(2), 39</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1007/s00181-025-02846-6" target="_blank" rel="noopener">Paper</a> <a href="https://arxiv.org/abs/2501.12803" target="_blank" rel="noopener">Preprint</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="pe">
   <div class="year">2026</div>
   <div>
-    <p class="ptitle"><a href="https://doi.org/10.1177/0272989X251379819" target="_blank" rel="noopener">Estimating the causal effect of realistic treatment strategies using longitudinal observational data</a></p>
+    <p class="ptitle"><a href="https://doi.org/10.1007/s10742-025-00361-w" target="_blank" rel="noopener">Key factors behind the adoption of a patient-facing technology in primary care: a structured approach to variable importance</a></p>
+    <p class="authors">Rodrigues D<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b>, Darzi A, Barahona M, Mayer E</p>
+    <p class="venue">Health Services and Outcomes Research Methodology, 26(3), 392–410</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1007/s10742-025-00361-w" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="ci">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1002/hsr2.71534" target="_blank" rel="noopener">Transferability of real world evidence to support HTA recommendations in lower income European countries</a></p>
+    <p class="authors">Kaló Z, Petrova G, Németh B, Došenović Bonča P, Delnoij D, Bennett A, Tachkov K, Zhang Y, <b>Kreif N</b>, Knies S, Lipska I, Tesar T, Mitkova Z, Ponten J, Viberg A, Paveliu MS, Piniazkho O, Turcu-Stiolica A, Doležal T, Staňák M, Almadiyeva A, Hren R, Vitezić D, Petykó Z, Goettsch W, Manca A</p>
+    <p class="venue">Health Science Reports, 9(2), e71534</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/hsr2.71534" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="ci">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1177/0272989x251379819" target="_blank" rel="noopener">Estimating the causal effect of realistic treatment strategies using longitudinal observational data</a></p>
     <p class="authors">Zhang Y, Bennett A, Manca A, Mittelman M, Hoeks M, Smith A, Taylor A, Stauder R, de Witte T, Malcovati L, van Marrewijk C, <b>Kreif N</b></p>
     <p class="venue">Medical Decision Making, 46(2), 144–157</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1177/0272989x251379819" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="cml">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1002/jcv2.70035" target="_blank" rel="noopener">The impact of physical activity on psychological distress in young people: an analysis of longitudinal data from the Millennium Cohort Study using causal machine learning</a></p>
+    <p class="authors">Paton LW, <b>Kreif N</b>, Aylott LME, Kerrigan P, Nader C, Gega L, Tiffin PA</p>
+    <p class="venue">JCPP Advances, 6(2), e70035</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/jcv2.70035" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="cml gh">
   <div class="year">2025</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1002/hec.70031" target="_blank" rel="noopener">Using policy learning to inform health insurance targeting: a case study of Indonesia</a></p>
-    <p class="authors">Shah V, Jones AM, Malenica I, Hidayat T, <b>Kreif N</b></p>
+    <p class="authors">Shah V<sup class="trainee" title="Student or trainee co-author">‡</sup>, Jones AM, Malenica I, Hidayat T, <b>Kreif N</b></p>
     <p class="venue">Health Economics, 34(12), 2270–2296</p>
+    <p class="takeaway">Using Indonesian survey data, we show that assigning households to the two subsidized health insurance programs with an optimal policy rule would lower the expected risk of catastrophic health expenditure compared with the current assignment, with and without a budget constraint.</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/hec.70031" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
-  <div class="year">2025</div>
-  <div>
-    <p class="ptitle"><a href="https://doi.org/10.1007/s10742-025-00361-w" target="_blank" rel="noopener">Key factors behind the adoption of a patient-facing technology in primary care: a structured approach to variable importance</a></p>
-    <p class="authors">Rodrigues D, <b>Kreif N</b>, Darzi A, Barahona M, Mayer E</p>
-    <p class="venue">Health Services and Outcomes Research Methodology</p>
-  </div>
-</li>
-<li class="pub">
-  <div class="year">2025</div>
-  <div>
-    <p class="ptitle"><a href="https://doi.org/10.1002/hsr2.71534" target="_blank" rel="noopener">Transferability of real world evidence to support HTA recommendations in lower income European countries</a></p>
-    <p class="authors">Kaló Z, Petrova G, Németh B, Došenović Bonča P, Delnoij D, Bennett A, Tachkov K, Zhang Y, <b>Kreif N</b>, Knies S, Lipska I</p>
-    <p class="venue">Health Science Reports</p>
-  </div>
-</li>
-<li class="pub">
+<li class="pub" data-topics="cml gh">
   <div class="year">2025</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1371/journal.pone.0315057" target="_blank" rel="noopener">Estimating heterogeneous impacts of subsidised health insurance: a causal machine learning approach</a></p>
-    <p class="authors">Shah V, <b>Kreif N</b></p>
-    <p class="venue">PLOS ONE</p>
+    <p class="authors">Shah V<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b></p>
+    <p class="venue">PLOS One, 20(9), e0315057</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1371/journal.pone.0315057" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="pe">
   <div class="year">2025</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1002/hec.70014" target="_blank" rel="noopener">Digitalisation of access to primary care: is there an equity-efficiency trade-off?</a></p>
-    <p class="authors">Rodrigues D, <b>Kreif N</b>, Barahona M, Mayer E</p>
-    <p class="venue">Health Economics</p>
+    <p class="authors">Rodrigues D<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b>, Darzi A, Barahona M, Mayer E</p>
+    <p class="venue">Health Economics, 34(10), 1943–1962</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/hec.70014" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="gh pe">
   <div class="year">2025</div>
   <div>
-    <p class="ptitle"><a href="https://doi.org/10.1002/jcv2.70035" target="_blank" rel="noopener">The impact of physical activity on psychological distress in young people: an analysis of longitudinal data from the Millennium Cohort Study using causal machine learning</a></p>
-    <p class="authors">Paton LW, <b>Kreif N</b>, Aylott L, Kerrigan P, Nader C, Gega L, Tiffin PA</p>
-    <p class="venue">JCPP Advances</p>
-  </div>
-</li>
-<li class="pub">
-  <div class="year">2025</div>
-  <div>
-    <p class="ptitle">Public policies and femicides during the COVID-19 pandemic</p>
+    <p class="ptitle"><a href="https://doi.org/10.1016/j.ehb.2025.101508" target="_blank" rel="noopener">Public policies and femicides during the COVID-19 pandemic: evidence from São Paulo, Brazil</a></p>
     <p class="authors">Diaz MD, Pereda P, Rocha F, Oliveira P, Árabe I, <b>Kreif N</b>, Lordemus S, Moreno-Serra R</p>
-    <p class="venue">Economics and Human Biology, 58, 101508</p>
+    <p class="venue">Economics &amp; Human Biology, 58, 101508</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1016/j.ehb.2025.101508" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="gh pe">
   <div class="year">2025</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1016/j.regsciurbeco.2025.104091" target="_blank" rel="noopener">Health facility quality peer effects: are financial incentives necessary?</a></p>
-    <p class="authors">McGuire F, Santos R, Smith PC, Stacey N, Edoka I, <b>Kreif N</b></p>
+    <p class="authors">McGuire F<sup class="trainee" title="Student or trainee co-author">‡</sup>, Santos R, Smith PC, Stacey N, Edoka I, <b>Kreif N</b></p>
     <p class="venue">Regional Science and Urban Economics, 112, 104091</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1016/j.regsciurbeco.2025.104091" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="heor">
   <div class="year">2025</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1371/journal.pmed.1004506" target="_blank" rel="noopener">Psychological distress in adolescence and later economic and health outcomes in the US population</a></p>
     <p class="authors">Counts NZ, <b>Kreif N</b>, Creedon TB, Bloom DE</p>
     <p class="venue">PLOS Medicine, 22(1), e1004506</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1371/journal.pmed.1004506" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="gh pe">
   <div class="year">2025</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1002/hec.4899" target="_blank" rel="noopener">Do health care quality improvement policies work for all? Distributional effects by baseline quality in South Africa</a></p>
-    <p class="authors">McGuire F, Smith PC, Stacey N, Edoka I, <b>Kreif N</b></p>
+    <p class="authors">McGuire F<sup class="trainee" title="Student or trainee co-author">‡</sup>, Smith PC, Stacey N, Edoka I, <b>Kreif N</b></p>
     <p class="venue">Health Economics, 34(1), 175–199</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/hec.4899" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="cml ci">
   <div class="year">2024</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1177/0272989x241263356" target="_blank" rel="noopener">Machine learning methods to estimate individualized treatment effects for use in health technology assessment</a></p>
-    <p class="authors">Zhang Y, <b>Kreif N</b>, Gc VS, Manca A</p>
+    <p class="authors">Zhang Y, <b>Kreif N</b>, GC VS, Manca A</p>
     <p class="venue">Medical Decision Making, 44(7), 756–769</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1177/0272989x241263356" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="cml ci">
   <div class="year">2024</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1002/hec.4834" target="_blank" rel="noopener">Integrating decision modeling and machine learning to inform treatment stratification</a></p>
-    <p class="authors">Glynn D, Giardina J, Hatamyar J, Pandya A, Soares M, <b>Kreif N</b></p>
+    <p class="authors">Glynn D, Giardina J, Hatamyar J<sup class="trainee" title="Student or trainee co-author">‡</sup>, Pandya A, Soares M, <b>Kreif N</b></p>
     <p class="venue">Health Economics, 33(8), 1772–1792</p>
+    <p class="takeaway">We combine machine learning estimates of treatment-effect heterogeneity with a decision model and show, using the SPRINT blood pressure trial, that stratifying treatment by subgroups found with policy trees can increase incremental net health benefit.</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/hec.4834" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="gh">
   <div class="year">2024</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1111/obes.12603" target="_blank" rel="noopener">Public healthcare financing during counterinsurgency efforts: evidence from Colombia</a></p>
     <p class="authors">Lordemus S, <b>Kreif N</b>, Moreno-Serra R</p>
     <p class="venue">Oxford Bulletin of Economics and Statistics, 86(5), 1230–1259</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1111/obes.12603" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="gh">
   <div class="year">2024</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1016/j.ssmph.2024.101626" target="_blank" rel="noopener">The effect of conflict-related violence intensity and alcohol use on mental health: the case of Colombia</a></p>
     <p class="authors">Salas-Ortiz A, Moreno-Serra R, <b>Kreif N</b>, Suhrcke M, Casas G</p>
-    <p class="venue">SSM – Population Health, 101626</p>
+    <p class="venue">SSM - Population Health, 25, 101626</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1016/j.ssmph.2024.101626" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="gh">
   <div class="year">2024</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1016/j.worlddev.2023.106461" target="_blank" rel="noopener">COVID-19 and violence against women: current knowledge, gaps, and implications for public policy</a></p>
-    <p class="authors">Rocha F, Diaz MD, Pereda PC, Árabe IB, Cavalcanti F, Lordemus S, <b>Kreif N</b>, Moreno-Serra R</p>
+    <p class="authors">Rocha F, Diaz MDM, Pereda PC, Árabe IB, Cavalcanti F, Lordemus S, <b>Kreif N</b>, Moreno-Serra R</p>
     <p class="venue">World Development, 174, 106461</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1016/j.worlddev.2023.106461" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="gh">
   <div class="year">2022</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1007/s40258-022-00752-x" target="_blank" rel="noopener">Estimating the health effects of expansions in health expenditure in Indonesia: a dynamic panel data approach</a></p>
-    <p class="authors">Moler-Zapata S, <b>Kreif N</b>, Ochalek J, Mirelman AJ, Nadjib M, Suhrcke M</p>
-    <p class="venue">Applied Health Economics and Health Policy</p>
+    <p class="authors">Moler-Zapata S<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b>, Ochalek J, Mirelman AJ, Nadjib M, Suhrcke M</p>
+    <p class="venue">Applied Health Economics and Health Policy, 20(6), 881–891</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1007/s40258-022-00752-x" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="ci">
   <div class="year">2022</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1093/ije/dyac135" target="_blank" rel="noopener">Reflection on modern methods: constructing directed acyclic graphs (DAGs) with domain experts for health services research</a></p>
-    <p class="authors">Rodrigues D, <b>Kreif N</b>, Lawrence-Jones A, Barahona M, Mayer E</p>
+    <p class="authors">Rodrigues D<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b>, Lawrence-Jones A, Barahona M, Mayer E</p>
     <p class="venue">International Journal of Epidemiology, 51(4), 1339–1348</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1093/ije/dyac135" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="cml">
   <div class="year">2022</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1016/j.jval.2022.03.022" target="_blank" rel="noopener">Machine learning methods in health economics and outcomes research — the PALISADE checklist: a good practices report of an ISPOR task force</a></p>
-    <p class="authors">Padula WV, <b>Kreif N</b>, Vanness DJ, Adamson B, Rueda JD, Felizzi F, et al.</p>
+    <p class="authors">Padula WV, <b>Kreif N</b>, Vanness DJ, Adamson B, Rueda JD, Felizzi F, Jonsson P, IJzerman MJ, Butte A, Crown W</p>
     <p class="venue">Value in Health, 25(7), 1063–1080</p>
+    <p class="takeaway">An ISPOR task force report that sets out the PALISADE checklist of good practices for using machine learning in health economics and outcomes research.</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1016/j.jval.2022.03.022" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="pe">
   <div class="year">2022</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1002/hec.4479" target="_blank" rel="noopener">The long-run effects of diagnosis related group payment on hospital lengths of stay in a publicly funded health care system: evidence from 15 years of micro data</a></p>
     <p class="authors">Aragón MJ, Chalkley M, <b>Kreif N</b></p>
     <p class="venue">Health Economics, 31(6), 956–972</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/hec.4479" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="pe">
   <div class="year">2022</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1136/bmj-2022-070757" target="_blank" rel="noopener">Formalising triage in general practice towards a more equitable, safe, and efficient allocation of resources</a></p>
-    <p class="authors">Rodrigues D, <b>Kreif N</b>, Saravanakumar K, Delaney B, Barahona M, et al.</p>
-    <p class="venue">BMJ, 377</p>
+    <p class="authors">Rodrigues D<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b>, Saravanakumar K, Delaney B, Barahona M, Mayer E</p>
+    <p class="venue">BMJ, 377, e070757</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1136/bmj-2022-070757" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="ci">
   <div class="year">2022</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1371/journal.pone.0262293" target="_blank" rel="noopener">Propensity score methods for comparative-effectiveness analysis: a case study of direct oral anticoagulants in the atrial fibrillation population</a></p>
     <p class="authors">Ciminata G, Geue C, Wu O, Deidda M, <b>Kreif N</b>, Langhorne P</p>
     <p class="venue">PLOS ONE, 17(1), e0262293</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1371/journal.pone.0262293" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
-  <div class="year">2021</div>
+<li class="pub" data-topics="cml gh">
+  <div class="year">2022</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1007/s10742-021-00259-3" target="_blank" rel="noopener">Estimating heterogeneous policy impacts using causal machine learning: a case study of health insurance reform in Indonesia</a></p>
     <p class="authors"><b>Kreif N</b>, DiazOrdaz K, Moreno-Serra R, Mirelman A, Hidayat T, Suhrcke M</p>
-    <p class="venue">Health Services and Outcomes Research Methodology</p>
+    <p class="venue">Health Services and Outcomes Research Methodology, 22(2), 192–227</p>
+    <p class="takeaway">Using causal forests, we find that the benefits of contributory health insurance for maternal health care and infant mortality in Indonesia were larger for poorer, less educated and rural women, and varied by region.</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1007/s10742-021-00259-3" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
-  <div class="year">2021</div>
+<li class="pub" data-topics="gh">
+  <div class="year">2022</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1016/j.ehb.2021.101074" target="_blank" rel="noopener">The impact of civil conflict on child health: evidence from Colombia</a></p>
     <p class="authors"><b>Kreif N</b>, Mirelman A, Suhrcke M, Buitrago G, Moreno-Serra R</p>
-    <p class="venue">Economics &amp; Human Biology, 101074</p>
+    <p class="venue">Economics &amp; Human Biology, 44, 101074</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1016/j.ehb.2021.101074" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="gh">
   <div class="year">2021</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1002/hec.4368" target="_blank" rel="noopener">The effect of distance on maternal institutional delivery choice: evidence from Malawi</a></p>
-    <p class="authors">McGuire F, <b>Kreif N</b>, Smith PC</p>
-    <p class="venue">Health Economics</p>
+    <p class="authors">McGuire F<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b>, Smith PC</p>
+    <p class="venue">Health Economics, 30(9), 2144–2167</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/hec.4368" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="gh">
   <div class="year">2021</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1186/s12939-021-01381-x" target="_blank" rel="noopener">A light of hope? Inequalities in mental health before and after the peace agreement in Colombia: a decomposition analysis</a></p>
     <p class="authors">León-Giraldo S, Casas G, Cuervo-Sánchez JS, González-Uribe C, Olmos A, <b>Kreif N</b>, Suhrcke M, Bernal O, Moreno-Serra R</p>
-    <p class="venue">International Journal for Equity in Health, 20(39)</p>
+    <p class="venue">International Journal for Equity in Health, 20(1), 39</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1186/s12939-021-01381-x" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="gh">
   <div class="year">2021</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1186/s12939-021-01555-7" target="_blank" rel="noopener">Inequalities in catastrophic health expenditures in conflict-affected areas and the Colombian peace agreement: an Oaxaca–Blinder change decomposition analysis</a></p>
     <p class="authors">León-Giraldo S, Cuervo-Sánchez JS, Casas G, González-Uribe C, <b>Kreif N</b>, Bernal O, Moreno-Serra R</p>
     <p class="venue">International Journal for Equity in Health, 20(1), 217</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1186/s12939-021-01555-7" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="gh pe">
   <div class="year">2021</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1002/hec.4228" target="_blank" rel="noopener">Facility standards and the quality of public sector primary care: evidence from South Africa&#x27;s &quot;Ideal Clinics&quot;</a></p>
-    <p class="authors">Stacey N, Edoka I, Suhrcke M, <b>Kreif N</b>, Mirelman A, Hoffman K</p>
-    <p class="venue">Health Economics</p>
+    <p class="authors">Stacey N, Mirelman A, <b>Kreif N</b>, Suhrcke M, Hofman K, Edoka I</p>
+    <p class="venue">Health Economics, 30(7), 1543–1558</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/hec.4228" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="gh ci">
   <div class="year">2021</div>
   <div>
     <p class="ptitle"><a href="https://gatesopenresearch.org/articles/5-1/v1" target="_blank" rel="noopener">From impact evaluation to decision-analysis: assessing the extent and quality of evidence on &#x27;value for money&#x27; in health impact evaluations in low- and middle-income countries</a></p>
-    <p class="authors"><b>Kreif N</b>, Mirelman A, Love-Koh J, Kim S, Moreno-Serra R, Revill P, Sculpher M, Suhrcke M</p>
-    <p class="venue">Gates Open Research</p>
+    <p class="authors"><b>Kreif N</b>, Mirelman AJ, Love-Koh J, Kim S<sup class="trainee" title="Student or trainee co-author">‡</sup>, Moreno-Serra R, Revill P, Sculpher M, Suhrcke M</p>
+    <p class="venue">Gates Open Research, 5, 1</p>
+    <p class="pub-actions"><a href="https://gatesopenresearch.org/articles/5-1/v1" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
-  <div class="year">2021</div>
-  <div>
-    <p class="ptitle"><a href="https://doi.org/10.12688/gatesopenres.13201.1" target="_blank" rel="noopener">What next after GDP-based cost-effectiveness thresholds?</a></p>
-    <p class="authors">Chi YL, Blecher M, Chalkidou K, Culyer A, Claxton K, Edoka I, Glassman A, <b>Kreif N</b>, et al.</p>
-    <p class="venue">Gates Open Research</p>
-  </div>
-</li>
-<li class="pub">
+<li class="pub" data-topics="ci">
   <div class="year">2021</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1111/biom.13271" target="_blank" rel="noopener">Exploiting non-systematic covariate monitoring to broaden the scope of evidence about the causal effects of adaptive treatment strategies</a></p>
-    <p class="authors"><b>Kreif N</b>, Sofrygin O, Schmittdiel J, Adams A, Grant R, Zhu Z, van der Laan M, Neugebauer R</p>
+    <p class="authors"><b>Kreif N</b>, Sofrygin O, Schmittdiel JA, Adams AS, Grant RW, Zhu Z, van der Laan MJ, Neugebauer R</p>
     <p class="venue">Biometrics, 77(1), 329–342</p>
+    <p class="takeaway">Using electronic health records of patients with type 2 diabetes, we show how variation in covariate monitoring can be used to evaluate joint treatment and monitoring strategies, and compare two inverse probability weighting estimators.</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1111/biom.13271" target="_blank" rel="noopener">Paper</a> <a href="https://arxiv.org/abs/1806.11153" target="_blank" rel="noopener">Preprint</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="gh">
+  <div class="year">2020</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.12688/gatesopenres.13201.1" target="_blank" rel="noopener">What next after GDP-based cost-effectiveness thresholds?</a></p>
+    <p class="authors">Chi YL, Blecher M, Chalkidou K, Culyer A, Claxton K, Edoka I, Glassman A, <b>Kreif N</b>, Jones I, Mirelman AJ, Nadjib M, Morton A, Norheim OF, Ochalek J, Prinja S, Ruiz F, Teerawattananon Y, Vassall A, Winch A</p>
+    <p class="venue">Gates Open Research, 4, 176</p>
+    <p class="pub-actions"><a href="https://doi.org/10.12688/gatesopenres.13201.1" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="pe">
   <div class="year">2020</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1111/1475-6773.13274" target="_blank" rel="noopener">A comparison of methods for health policy evaluation with controlled pre-post designs</a></p>
     <p class="authors">O&#x27;Neill S, <b>Kreif N</b>, Sutton M, Grieve R</p>
     <p class="venue">Health Services Research, 55(2), 328–338</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1111/1475-6773.13274" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="cml">
   <div class="year">2020</div>
   <div>
     <p class="ptitle">Data-adaptive doubly robust instrumental variable methods for treatment effect heterogeneity</p>
     <p class="authors">DiazOrdaz K, Daniel R, <b>Kreif N</b></p>
-    <p class="venue">Journal de la Société Française de Statistique, special issue on causality, 135–163</p>
+    <p class="venue">Journal de la Société Française de Statistique, 161(1), 135–163</p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="pe">
   <div class="year">2019</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1016/j.jhealeco.2019.102226" target="_blank" rel="noopener">Paying for efficiency: incentivising same-day discharges in the English NHS</a></p>
     <p class="authors">Gaughan J, Gutacker N, Grašič K, <b>Kreif N</b>, Siciliani L, Street A</p>
     <p class="venue">Journal of Health Economics, 68, 102226</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1016/j.jhealeco.2019.102226" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="pe ci">
   <div class="year">2019</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1016/j.socscimed.2018.11.032" target="_blank" rel="noopener">A framework for conducting economic evaluations alongside natural experiments</a></p>
     <p class="authors">Deidda M, Geue C, <b>Kreif N</b>, Dundas R, McIntosh E</p>
     <p class="venue">Social Science &amp; Medicine, 220, 353–361</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1016/j.socscimed.2018.11.032" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="ci">
   <div class="year">2017</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1093/aje/kwx213" target="_blank" rel="noopener">Estimating the comparative effectiveness of feeding interventions in the pediatric intensive care unit: a demonstration of longitudinal targeted maximum likelihood estimation</a></p>
     <p class="authors"><b>Kreif N</b>, Tran L, Grieve R, De Stavola B, Tasker RC, Petersen M</p>
     <p class="venue">American Journal of Epidemiology, 186(12), 1370–1379</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1093/aje/kwx213" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="pe">
   <div class="year">2016</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1007/s10742-016-0146-8" target="_blank" rel="noopener">Estimating causal effects: considering three alternatives to difference-in-differences estimation</a></p>
-    <p class="authors">O&#x27;Neill S, <b>Kreif N</b>, Grieve R, Sutton M, Sekhon JS</p>
-    <p class="venue">Health Services and Outcomes Research Methodology, 1, 1–21</p>
+    <p class="authors">O’Neill S, <b>Kreif N</b>, Grieve R, Sutton M, Sekhon JS</p>
+    <p class="venue">Health Services and Outcomes Research Methodology, 16(1-2), 1–21</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1007/s10742-016-0146-8" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="pe">
   <div class="year">2016</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1002/hec.3258" target="_blank" rel="noopener">Examination of the synthetic control method for evaluating health policies with multiple treated units</a></p>
     <p class="authors"><b>Kreif N</b>, Grieve R, Hangartner D, Turner AJ, Nikolova S, Sutton M</p>
-    <p class="venue">Health Economics, 25, 1514–1528</p>
+    <p class="venue">Health Economics, 25(12), 1514–1528</p>
+    <p class="takeaway">We extend the synthetic control method to policies with multiple treated units; re-analyzing a hospital pay-for-performance scheme, we find no significant reduction in mortality for the incentivized conditions, in contrast to the earlier difference-in-differences analysis.</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/hec.3258" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="ci">
   <div class="year">2016</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1177/0962280214521341" target="_blank" rel="noopener">Evaluating treatment effectiveness under model misspecification: a comparison of targeted maximum likelihood estimation with bias-corrected matching</a></p>
-    <p class="authors"><b>Kreif N</b>, Grieve R, Radice R, Gruber S, Sekhon JS</p>
+    <p class="authors"><b>Kreif N</b>, Gruber S, Radice R, Grieve R, Sekhon JS</p>
     <p class="venue">Statistical Methods in Medical Research, 25(5), 2315–2336</p>
+    <p class="takeaway">In simulations grounded in an evaluation of hip prostheses, bias-corrected matching had less bias but higher variance than targeted maximum likelihood estimation, and both methods performed much better with machine learning than with misspecified parametric models.</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1177/0962280214521341" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="ci cml">
   <div class="year">2015</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1002/hec.3189" target="_blank" rel="noopener">Evaluation of the effect of a continuous treatment: a machine learning approach with an application to treatment for traumatic brain injury</a></p>
     <p class="authors"><b>Kreif N</b>, Grieve R, Díaz I, Harrison D</p>
     <p class="venue">Health Economics, 24(9), 1213–1228</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/hec.3189" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="heor">
   <div class="year">2014</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1016/s2352-3018(14)70018-9" target="_blank" rel="noopener">Health-related quality-of-life of people with HIV in the era of combination antiretroviral treatment: a cross-sectional comparison with the general population</a></p>
-    <p class="authors">Miners A, Phillips A, <b>Kreif N</b>, Rodger A, Speakman A, Fisher M, et al.</p>
+    <p class="authors">Miners A, Phillips A, <b>Kreif N</b>, Rodger A, Speakman A, Fisher M, Anderson J, Collins S, Hart G, Sherr L, Lampe FC</p>
     <p class="venue">The Lancet HIV, 1(1), e32–e40</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1016/s2352-3018(14)70018-9" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="heor">
+  <div class="year">2014</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1007/s11136-013-0442-5" target="_blank" rel="noopener">Validation of the SF-36 in patients with endometriosis</a></p>
+    <p class="authors">Stull DE, Wasiak R, <b>Kreif N</b>, Raluy M, Colligs A, Seitz C, Gerlinger C</p>
+    <p class="venue">Quality of Life Research, 23(1), 103–117</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1007/s11136-013-0442-5" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="ci">
   <div class="year">2013</div>
   <div>
-    <p class="ptitle">Regression-adjusted matching and double-robust methods for estimating average treatment effects in cost-effectiveness analyses</p>
+    <p class="ptitle"><a href="https://doi.org/10.1007/s10742-013-0109-2" target="_blank" rel="noopener">Regression-adjusted matching and double-robust methods for estimating average treatment effects in cost-effectiveness analyses</a></p>
     <p class="authors"><b>Kreif N</b>, Grieve R, Radice R, Sekhon JS</p>
-    <p class="venue">Health Services and Outcomes Research Methodology, 13(2–4), 174–202</p>
+    <p class="venue">Health Services and Outcomes Research Methodology, 13(2-4), 174–202</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1007/s10742-013-0109-2" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="heor">
   <div class="year">2013</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1007/s40273-013-0064-3" target="_blank" rel="noopener">Overview of parametric survival analysis for health-economic applications</a></p>
     <p class="authors">Ishak KJ, <b>Kreif N</b>, Benedict A, Muszbek N</p>
     <p class="venue">PharmacoEconomics, 31(8), 663–675</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1007/s40273-013-0064-3" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="ci">
   <div class="year">2013</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1002/hec.2806" target="_blank" rel="noopener">Statistical methods for cost-effectiveness analyses that use observational data: a critical appraisal tool and review of current practice</a></p>
-    <p class="authors"><b>Kreif N</b>, Grieve R, Sadique ZM</p>
+    <p class="authors"><b>Kreif N</b>, Grieve R, Sadique MZ</p>
     <p class="venue">Health Economics, 22(4), 486–500</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/hec.2806" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="ci">
   <div class="year">2012</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1177/0272989x12448929" target="_blank" rel="noopener">Methods for estimating subgroup effects in cost-effectiveness analyses that use observational data</a></p>
-    <p class="authors"><b>Kreif N</b>, Grieve R, Sadique ZM, Radice R, Ramsahai R, Sekhon JS</p>
+    <p class="authors"><b>Kreif N</b>, Grieve R, Radice R, Sadique Z, Ramsahai R, Sekhon JS</p>
     <p class="venue">Medical Decision Making, 32(6), 750–763</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1177/0272989x12448929" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="heor">
   <div class="year">2012</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1185/03007995.2012.691422" target="_blank" rel="noopener">Modeling survival in hepatocellular carcinoma</a></p>
-    <p class="authors">Muszbek N, <b>Kreif N</b>, Valderrama A, Benedict A, Ishak J, Ross P</p>
+    <p class="authors">Muszbek N, <b>Kreif N</b>, Valderrama A, Benedict A, Ishak J, Ross DP</p>
     <p class="venue">Current Medical Research and Opinion, 28(7), 1141–1153</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1185/03007995.2012.691422" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="ci">
   <div class="year">2012</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1515/1557-4679.1382" target="_blank" rel="noopener">Evaluating treatment effectiveness in patient subgroups: a comparison of propensity score methods with an automated matching approach</a></p>
-    <p class="authors">Radice R, Ramsahai R, Grieve R, <b>Kreif N</b>, Sadique ZM, Sekhon JS</p>
-    <p class="venue">International Journal of Biostatistics, 8(1), 25</p>
+    <p class="authors">Radice R, Ramsahai R, Grieve R, <b>Kreif N</b>, Sadique Z, Sekhon JS</p>
+    <p class="venue">The International Journal of Biostatistics, 8(1)</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1515/1557-4679.1382" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="heor">
   <div class="year">2011</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1007/s12094-011-0748-0" target="_blank" rel="noopener">Cost-effectiveness evaluation of sunitinib as first-line targeted therapy for metastatic renal cell carcinoma in Spain</a></p>
-    <p class="authors">Calvo Aller E, Rey PM, <b>Kreif N</b>, et al.</p>
+    <p class="authors">Calvo Aller E, Maroto P, <b>Kreif N</b>, González Larriba JL, López-Brea M, Castellano D, Martí B, Díaz Cerezo S</p>
     <p class="venue">Clinical and Translational Oncology, 13(12), 869–877</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1007/s12094-011-0748-0" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="heor">
   <div class="year">2010</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1159/000286233" target="_blank" rel="noopener">Cost-effectiveness analysis of anastrozole versus tamoxifen in adjuvant therapy for early-stage breast cancer: a health-economic analysis based on the 100-month analysis of the ATAC trial and the German health system</a></p>
-    <p class="authors">Lux MP, Wöckel A, Benedict A, Buchholz S, <b>Kreif N</b>, et al.</p>
+    <p class="authors">Lux MP, Wöckel A, Benedict A, Buchholz S, <b>Kreif N</b>, Harbeck N, Kreienberg R, Kaufmann M, Beckmann MW, Jonat W, Hadji P, Distler W, Raab G, Tesch H, Weyers G, Possinger K, Schneeweiss A</p>
     <p class="venue">Onkologie, 33(4), 155–166</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1159/000286233" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="heor">
   <div class="year">2009</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1185/03007990902738810" target="_blank" rel="noopener">Quality of life and drug costs associated with switching antipsychotic medication to once-daily extended release quetiapine fumarate in patients with schizophrenia</a></p>
     <p class="authors">Järbrink K, <b>Kreif N</b>, Benedict A, Locklear J</p>
     <p class="venue">Current Medical Research and Opinion, 25(3), 709–716</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1185/03007990902738810" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
     </ul>
@@ -481,44 +585,49 @@
       <h2>Chapters, encyclopedia entries and editorials</h2>
     </div>
     <ul class="pub-list">
-<li class="pub">
+<li class="pub" data-topics="cml">
   <div class="year">2026</div>
   <div>
     <p class="ptitle"><a href="https://academic.oup.com/edited-volume/61801/chapter-abstract/568695652" target="_blank" rel="noopener">Machine learning for causal inference: opportunities and pitfalls</a></p>
-    <p class="authors">Hatamyar J, <b>Kreif N</b></p>
-    <p class="venue">Oxford Research Encyclopedia of Economics and Finance, Oxford University Press</p>
+    <p class="authors">Hatamyar J<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b></p>
+    <p class="venue">Oxford Research Encyclopedia of Economics and Finance</p>
+    <p class="takeaway">An introduction for economists to machine learning methods for causal inference, covering what they offer and their main pitfalls.</p>
+    <p class="pub-actions"><a href="https://academic.oup.com/edited-volume/61801/chapter-abstract/568695652" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="pe">
   <div class="year">2026</div>
   <div>
     <p class="ptitle">Difference-in-differences</p>
     <p class="authors">Powell-Jackson T, O&#x27;Neill S, <b>Kreif N</b></p>
-    <p class="venue">In: Evaluating Public Health Interventions (textbook), UCL Press <span class="tag">in press</span></p>
+    <p class="venue">Colbourn T, Hargreaves J, eds. Evaluating Public Health Interventions. UCL Press <span class="tag">in press</span></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="ci">
   <div class="year">2021</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1097/pcc.0000000000002842" target="_blank" rel="noopener">Learning from an association analysis using propensity scores</a></p>
     <p class="authors"><b>Kreif N</b></p>
-    <p class="venue">Pediatric Critical Care Medicine, 22(12), 1088–1092 (invited editorial)</p>
+    <p class="venue">Pediatric Critical Care Medicine, 22(12), 1088–1092</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1097/pcc.0000000000002842" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="cml">
   <div class="year">2021</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.4337/9781788976480.00025" target="_blank" rel="noopener">Machine learning for causal inference: estimating heterogeneous treatment effects</a></p>
-    <p class="authors">Shah V, <b>Kreif N</b>, Jones AM</p>
-    <p class="venue">In: Edward Elgar Handbook in Empirical Microeconomics</p>
+    <p class="authors">Shah V<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b>, Jones AM</p>
+    <p class="venue">Handbook of Research Methods and Applications in Empirical Microeconomics</p>
+    <p class="pub-actions"><a href="https://doi.org/10.4337/9781788976480.00025" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="cml">
   <div class="year">2019</div>
   <div>
     <p class="ptitle"><a href="https://doi.org/10.1093/acrefore/9780190625979.013.256" target="_blank" rel="noopener">Machine learning in policy evaluation: new tools for causal inference</a></p>
     <p class="authors"><b>Kreif N</b>, DiazOrdaz K</p>
-    <p class="venue">Oxford Research Encyclopedia of Economics and Finance, Oxford University Press</p>
+    <p class="venue">Oxford Research Encyclopedia of Economics and Finance</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1093/acrefore/9780190625979.013.256" target="_blank" rel="noopener">Paper</a></p>
   </div>
 </li>
     </ul>
@@ -528,76 +637,732 @@
 <section id="working-papers">
   <div class="wrap split">
     <div class="side">
-      <h2>Working papers and manuscripts under review</h2>
+      <h2>Preprints and manuscripts under review</h2>
     </div>
     <ul class="pub-list">
-<li class="pub">
+<li class="pub" data-topics="heor ci">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle">Comparative effectiveness of lutetium Lu-177 vipivotide tetraxetan versus cabazitaxel in patients with metastatic castration-resistant prostate cancer</p>
+    <p class="authors">Nwogu IB<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b>, Khan HM, Etzioni R, Carlson JJ</p>
+    <p class="venue">Submitted to International Journal of Cancer</p>
+  </div>
+</li>
+<li class="pub" data-topics="gh">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle">Depression symptoms, employment, and household economic outcomes: evidence from the MIND-ECON trial in South Africa</p>
+    <p class="authors">Lordemus S, Jacob N, Jacobs R, Suhrcke M, <b>Kreif N</b>, Cleary S, Myers-Franchi B, Mutyambizi-Mafunda V</p>
+    <p class="venue">Submitted to World Development</p>
+    <p class="pub-actions"><a href="https://doi.org/10.2139/ssrn.6773071" target="_blank" rel="noopener">Preprint</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="ci">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle">Evaluating the effect of time-varying erythropoiesis-stimulating agents treatment policies on overall survival in lower-risk myelodysplastic syndromes: a target trial emulation within the EUMDS registry</p>
+    <p class="authors">Bennett A, <b>Kreif N</b>, Manca A</p>
+    <p class="venue">Submitted to Haematologica</p>
+  </div>
+</li>
+<li class="pub" data-topics="cml">
   <div class="year">2025</div>
   <div>
     <p class="ptitle"><a href="https://arxiv.org/abs/2506.15435" target="_blank" rel="noopener">Fast learning of optimal policy trees</a></p>
-    <p class="authors">Cussens J, Hatamyar J, Shah V, <b>Kreif N</b></p>
+    <p class="authors">Cussens J, Hatamyar J<sup class="trainee" title="Student or trainee co-author">‡</sup>, Shah V<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b></p>
     <p class="venue">arXiv:2506.15435</p>
+    <p class="pub-actions"><a href="https://cran.r-project.org/package=fastpolicytree" target="_blank" rel="noopener">Software</a></p>
   </div>
 </li>
-<li class="pub">
-  <div class="year">2025</div>
-  <div>
-    <p class="ptitle">Policy learning in practice: simulation evidence and a case study of optimal allocation of subsidised health insurance</p>
-    <p class="authors">Hatamyar J, <b>Kreif N</b></p>
-    <p class="venue">Under revision, Statistics in Medicine</p>
-  </div>
-</li>
-<li class="pub">
-  <div class="year">2025</div>
-  <div>
-    <p class="ptitle">Comparative evaluation of machine learning methods for personalized treatment allocation based on randomized controlled trial data</p>
-    <p class="authors"><b>Kreif N</b>, Basu A</p>
-    <p class="venue">Working paper</p>
-  </div>
-</li>
-<li class="pub">
-  <div class="year">2025</div>
-  <div>
-    <p class="ptitle">Target trial emulation for real world data analyses to support HTA decisions</p>
-    <p class="authors">Bennett A, <b>Kreif N</b>, Manca A</p>
-    <p class="venue">Working paper</p>
-  </div>
-</li>
-<li class="pub">
-  <div class="year">2025</div>
-  <div>
-    <p class="ptitle">The impact of mental health status on employment, income, out-of-pocket payments for healthcare and household spending patterns</p>
-    <p class="authors">Jacob N, <b>Kreif N</b>, Lordemus S, Cleary S, Jacobs R</p>
-    <p class="venue">Submitted, Journal of Population Economics</p>
-  </div>
-</li>
-<li class="pub">
-  <div class="year">2025</div>
-  <div>
-    <p class="ptitle">A solution looking for a problem: the effect of maternity waiting homes on health care utilisation and child health outcomes</p>
-    <p class="authors">McGuire F, <b>Kreif N</b>, Chirwa G, Manthalu G, Smith P</p>
-    <p class="venue">Working paper</p>
-  </div>
-</li>
-<li class="pub">
+<li class="pub" data-topics="cml pe">
   <div class="year">2023</div>
   <div>
     <p class="ptitle"><a href="https://arxiv.org/abs/2310.11962" target="_blank" rel="noopener">Machine learning for staggered difference-in-differences and dynamic treatment effect heterogeneity</a></p>
-    <p class="authors">Hatamyar J, <b>Kreif N</b>, Rocha R, Huber M</p>
+    <p class="authors">Hatamyar J<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b>, Rocha R, Huber M</p>
     <p class="venue">arXiv:2310.11962</p>
   </div>
 </li>
-<li class="pub">
+<li class="pub" data-topics="cml">
   <div class="year">2023</div>
   <div>
     <p class="ptitle"><a href="https://arxiv.org/abs/2302.05260" target="_blank" rel="noopener">Policy learning with rare outcomes</a></p>
-    <p class="authors">Hatamyar J, <b>Kreif N</b></p>
+    <p class="authors">Hatamyar J<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b></p>
     <p class="venue">arXiv:2302.05260</p>
   </div>
 </li>
     </ul>
   </div>
 </section>
+</div>
+
+<div class="view" data-view="theme" hidden>
+<section id="theme-cml">
+  <div class="wrap split">
+    <div class="side">
+      <h2>Causal machine learning for health policy evaluation</h2>
+      <p class="side-note">10 journal articles</p>
+    </div>
+    <ul class="pub-list">
+<li class="pub" data-topics="cml">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle">Policy learning in practice: simulation evidence and a case study of optimal allocation of subsidised health insurance</p>
+    <p class="authors">Hatamyar J<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b></p>
+    <p class="venue">Statistics in Medicine <span class="tag">accepted</span></p>
+  </div>
+</li>
+<li class="pub" data-topics="cml gh">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1007/s00181-025-02846-6" target="_blank" rel="noopener">Exploring the heterogeneous impacts of Indonesia&#x27;s conditional cash transfer scheme (PKH) on maternal health care utilisation using instrumental causal forests</a></p>
+    <p class="authors">Shah V<sup class="trainee" title="Student or trainee co-author">‡</sup>, Hatamyar J<sup class="trainee" title="Student or trainee co-author">‡</sup>, Hidayat T, <b>Kreif N</b></p>
+    <p class="venue">Empirical Economics, 70(2), 39</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1007/s00181-025-02846-6" target="_blank" rel="noopener">Paper</a> <a href="https://arxiv.org/abs/2501.12803" target="_blank" rel="noopener">Preprint</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="cml">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1002/jcv2.70035" target="_blank" rel="noopener">The impact of physical activity on psychological distress in young people: an analysis of longitudinal data from the Millennium Cohort Study using causal machine learning</a></p>
+    <p class="authors">Paton LW, <b>Kreif N</b>, Aylott LME, Kerrigan P, Nader C, Gega L, Tiffin PA</p>
+    <p class="venue">JCPP Advances, 6(2), e70035</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/jcv2.70035" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="cml">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle"><a href="https://academic.oup.com/edited-volume/61801/chapter-abstract/568695652" target="_blank" rel="noopener">Machine learning for causal inference: opportunities and pitfalls</a></p>
+    <p class="authors">Hatamyar J<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b></p>
+    <p class="venue">Oxford Research Encyclopedia of Economics and Finance</p>
+    <p class="takeaway">An introduction for economists to machine learning methods for causal inference, covering what they offer and their main pitfalls.</p>
+    <p class="pub-actions"><a href="https://academic.oup.com/edited-volume/61801/chapter-abstract/568695652" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="cml gh">
+  <div class="year">2025</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1002/hec.70031" target="_blank" rel="noopener">Using policy learning to inform health insurance targeting: a case study of Indonesia</a></p>
+    <p class="authors">Shah V<sup class="trainee" title="Student or trainee co-author">‡</sup>, Jones AM, Malenica I, Hidayat T, <b>Kreif N</b></p>
+    <p class="venue">Health Economics, 34(12), 2270–2296</p>
+    <p class="takeaway">Using Indonesian survey data, we show that assigning households to the two subsidized health insurance programs with an optimal policy rule would lower the expected risk of catastrophic health expenditure compared with the current assignment, with and without a budget constraint.</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/hec.70031" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="cml gh">
+  <div class="year">2025</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1371/journal.pone.0315057" target="_blank" rel="noopener">Estimating heterogeneous impacts of subsidised health insurance: a causal machine learning approach</a></p>
+    <p class="authors">Shah V<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b></p>
+    <p class="venue">PLOS One, 20(9), e0315057</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1371/journal.pone.0315057" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="cml">
+  <div class="year">2025</div>
+  <div>
+    <p class="ptitle"><a href="https://arxiv.org/abs/2506.15435" target="_blank" rel="noopener">Fast learning of optimal policy trees</a></p>
+    <p class="authors">Cussens J, Hatamyar J<sup class="trainee" title="Student or trainee co-author">‡</sup>, Shah V<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b></p>
+    <p class="venue">arXiv:2506.15435</p>
+    <p class="pub-actions"><a href="https://cran.r-project.org/package=fastpolicytree" target="_blank" rel="noopener">Software</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="cml ci">
+  <div class="year">2024</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1177/0272989x241263356" target="_blank" rel="noopener">Machine learning methods to estimate individualized treatment effects for use in health technology assessment</a></p>
+    <p class="authors">Zhang Y, <b>Kreif N</b>, GC VS, Manca A</p>
+    <p class="venue">Medical Decision Making, 44(7), 756–769</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1177/0272989x241263356" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="cml ci">
+  <div class="year">2024</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1002/hec.4834" target="_blank" rel="noopener">Integrating decision modeling and machine learning to inform treatment stratification</a></p>
+    <p class="authors">Glynn D, Giardina J, Hatamyar J<sup class="trainee" title="Student or trainee co-author">‡</sup>, Pandya A, Soares M, <b>Kreif N</b></p>
+    <p class="venue">Health Economics, 33(8), 1772–1792</p>
+    <p class="takeaway">We combine machine learning estimates of treatment-effect heterogeneity with a decision model and show, using the SPRINT blood pressure trial, that stratifying treatment by subgroups found with policy trees can increase incremental net health benefit.</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/hec.4834" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="cml pe">
+  <div class="year">2023</div>
+  <div>
+    <p class="ptitle"><a href="https://arxiv.org/abs/2310.11962" target="_blank" rel="noopener">Machine learning for staggered difference-in-differences and dynamic treatment effect heterogeneity</a></p>
+    <p class="authors">Hatamyar J<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b>, Rocha R, Huber M</p>
+    <p class="venue">arXiv:2310.11962</p>
+  </div>
+</li>
+<li class="pub" data-topics="cml">
+  <div class="year">2023</div>
+  <div>
+    <p class="ptitle"><a href="https://arxiv.org/abs/2302.05260" target="_blank" rel="noopener">Policy learning with rare outcomes</a></p>
+    <p class="authors">Hatamyar J<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b></p>
+    <p class="venue">arXiv:2302.05260</p>
+  </div>
+</li>
+<li class="pub" data-topics="cml">
+  <div class="year">2022</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1016/j.jval.2022.03.022" target="_blank" rel="noopener">Machine learning methods in health economics and outcomes research — the PALISADE checklist: a good practices report of an ISPOR task force</a></p>
+    <p class="authors">Padula WV, <b>Kreif N</b>, Vanness DJ, Adamson B, Rueda JD, Felizzi F, Jonsson P, IJzerman MJ, Butte A, Crown W</p>
+    <p class="venue">Value in Health, 25(7), 1063–1080</p>
+    <p class="takeaway">An ISPOR task force report that sets out the PALISADE checklist of good practices for using machine learning in health economics and outcomes research.</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1016/j.jval.2022.03.022" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="cml gh">
+  <div class="year">2022</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1007/s10742-021-00259-3" target="_blank" rel="noopener">Estimating heterogeneous policy impacts using causal machine learning: a case study of health insurance reform in Indonesia</a></p>
+    <p class="authors"><b>Kreif N</b>, DiazOrdaz K, Moreno-Serra R, Mirelman A, Hidayat T, Suhrcke M</p>
+    <p class="venue">Health Services and Outcomes Research Methodology, 22(2), 192–227</p>
+    <p class="takeaway">Using causal forests, we find that the benefits of contributory health insurance for maternal health care and infant mortality in Indonesia were larger for poorer, less educated and rural women, and varied by region.</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1007/s10742-021-00259-3" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="cml">
+  <div class="year">2021</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.4337/9781788976480.00025" target="_blank" rel="noopener">Machine learning for causal inference: estimating heterogeneous treatment effects</a></p>
+    <p class="authors">Shah V<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b>, Jones AM</p>
+    <p class="venue">Handbook of Research Methods and Applications in Empirical Microeconomics</p>
+    <p class="pub-actions"><a href="https://doi.org/10.4337/9781788976480.00025" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="cml">
+  <div class="year">2020</div>
+  <div>
+    <p class="ptitle">Data-adaptive doubly robust instrumental variable methods for treatment effect heterogeneity</p>
+    <p class="authors">DiazOrdaz K, Daniel R, <b>Kreif N</b></p>
+    <p class="venue">Journal de la Société Française de Statistique, 161(1), 135–163</p>
+  </div>
+</li>
+<li class="pub" data-topics="cml">
+  <div class="year">2019</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1093/acrefore/9780190625979.013.256" target="_blank" rel="noopener">Machine learning in policy evaluation: new tools for causal inference</a></p>
+    <p class="authors"><b>Kreif N</b>, DiazOrdaz K</p>
+    <p class="venue">Oxford Research Encyclopedia of Economics and Finance</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1093/acrefore/9780190625979.013.256" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+    </ul>
+  </div>
+</section>
+
+<section id="theme-ci">
+  <div class="wrap split">
+    <div class="side">
+      <h2>Causal inference methods for decision science</h2>
+      <p class="side-note">12 journal articles</p>
+    </div>
+    <ul class="pub-list">
+<li class="pub" data-topics="ci">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1002/hsr2.71534" target="_blank" rel="noopener">Transferability of real world evidence to support HTA recommendations in lower income European countries</a></p>
+    <p class="authors">Kaló Z, Petrova G, Németh B, Došenović Bonča P, Delnoij D, Bennett A, Tachkov K, Zhang Y, <b>Kreif N</b>, Knies S, Lipska I, Tesar T, Mitkova Z, Ponten J, Viberg A, Paveliu MS, Piniazkho O, Turcu-Stiolica A, Doležal T, Staňák M, Almadiyeva A, Hren R, Vitezić D, Petykó Z, Goettsch W, Manca A</p>
+    <p class="venue">Health Science Reports, 9(2), e71534</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/hsr2.71534" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="ci">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1177/0272989x251379819" target="_blank" rel="noopener">Estimating the causal effect of realistic treatment strategies using longitudinal observational data</a></p>
+    <p class="authors">Zhang Y, Bennett A, Manca A, Mittelman M, Hoeks M, Smith A, Taylor A, Stauder R, de Witte T, Malcovati L, van Marrewijk C, <b>Kreif N</b></p>
+    <p class="venue">Medical Decision Making, 46(2), 144–157</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1177/0272989x251379819" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="ci">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle">Evaluating the effect of time-varying erythropoiesis-stimulating agents treatment policies on overall survival in lower-risk myelodysplastic syndromes: a target trial emulation within the EUMDS registry</p>
+    <p class="authors">Bennett A, <b>Kreif N</b>, Manca A</p>
+    <p class="venue">Submitted to Haematologica</p>
+  </div>
+</li>
+<li class="pub" data-topics="ci">
+  <div class="year">2022</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1093/ije/dyac135" target="_blank" rel="noopener">Reflection on modern methods: constructing directed acyclic graphs (DAGs) with domain experts for health services research</a></p>
+    <p class="authors">Rodrigues D<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b>, Lawrence-Jones A, Barahona M, Mayer E</p>
+    <p class="venue">International Journal of Epidemiology, 51(4), 1339–1348</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1093/ije/dyac135" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="ci">
+  <div class="year">2022</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1371/journal.pone.0262293" target="_blank" rel="noopener">Propensity score methods for comparative-effectiveness analysis: a case study of direct oral anticoagulants in the atrial fibrillation population</a></p>
+    <p class="authors">Ciminata G, Geue C, Wu O, Deidda M, <b>Kreif N</b>, Langhorne P</p>
+    <p class="venue">PLOS ONE, 17(1), e0262293</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1371/journal.pone.0262293" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="ci">
+  <div class="year">2021</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1111/biom.13271" target="_blank" rel="noopener">Exploiting non-systematic covariate monitoring to broaden the scope of evidence about the causal effects of adaptive treatment strategies</a></p>
+    <p class="authors"><b>Kreif N</b>, Sofrygin O, Schmittdiel JA, Adams AS, Grant RW, Zhu Z, van der Laan MJ, Neugebauer R</p>
+    <p class="venue">Biometrics, 77(1), 329–342</p>
+    <p class="takeaway">Using electronic health records of patients with type 2 diabetes, we show how variation in covariate monitoring can be used to evaluate joint treatment and monitoring strategies, and compare two inverse probability weighting estimators.</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1111/biom.13271" target="_blank" rel="noopener">Paper</a> <a href="https://arxiv.org/abs/1806.11153" target="_blank" rel="noopener">Preprint</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="ci">
+  <div class="year">2021</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1097/pcc.0000000000002842" target="_blank" rel="noopener">Learning from an association analysis using propensity scores</a></p>
+    <p class="authors"><b>Kreif N</b></p>
+    <p class="venue">Pediatric Critical Care Medicine, 22(12), 1088–1092</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1097/pcc.0000000000002842" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="ci">
+  <div class="year">2017</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1093/aje/kwx213" target="_blank" rel="noopener">Estimating the comparative effectiveness of feeding interventions in the pediatric intensive care unit: a demonstration of longitudinal targeted maximum likelihood estimation</a></p>
+    <p class="authors"><b>Kreif N</b>, Tran L, Grieve R, De Stavola B, Tasker RC, Petersen M</p>
+    <p class="venue">American Journal of Epidemiology, 186(12), 1370–1379</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1093/aje/kwx213" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="ci">
+  <div class="year">2016</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1177/0962280214521341" target="_blank" rel="noopener">Evaluating treatment effectiveness under model misspecification: a comparison of targeted maximum likelihood estimation with bias-corrected matching</a></p>
+    <p class="authors"><b>Kreif N</b>, Gruber S, Radice R, Grieve R, Sekhon JS</p>
+    <p class="venue">Statistical Methods in Medical Research, 25(5), 2315–2336</p>
+    <p class="takeaway">In simulations grounded in an evaluation of hip prostheses, bias-corrected matching had less bias but higher variance than targeted maximum likelihood estimation, and both methods performed much better with machine learning than with misspecified parametric models.</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1177/0962280214521341" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="ci cml">
+  <div class="year">2015</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1002/hec.3189" target="_blank" rel="noopener">Evaluation of the effect of a continuous treatment: a machine learning approach with an application to treatment for traumatic brain injury</a></p>
+    <p class="authors"><b>Kreif N</b>, Grieve R, Díaz I, Harrison D</p>
+    <p class="venue">Health Economics, 24(9), 1213–1228</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/hec.3189" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="ci">
+  <div class="year">2013</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1007/s10742-013-0109-2" target="_blank" rel="noopener">Regression-adjusted matching and double-robust methods for estimating average treatment effects in cost-effectiveness analyses</a></p>
+    <p class="authors"><b>Kreif N</b>, Grieve R, Radice R, Sekhon JS</p>
+    <p class="venue">Health Services and Outcomes Research Methodology, 13(2-4), 174–202</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1007/s10742-013-0109-2" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="ci">
+  <div class="year">2013</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1002/hec.2806" target="_blank" rel="noopener">Statistical methods for cost-effectiveness analyses that use observational data: a critical appraisal tool and review of current practice</a></p>
+    <p class="authors"><b>Kreif N</b>, Grieve R, Sadique MZ</p>
+    <p class="venue">Health Economics, 22(4), 486–500</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/hec.2806" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="ci">
+  <div class="year">2012</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1177/0272989x12448929" target="_blank" rel="noopener">Methods for estimating subgroup effects in cost-effectiveness analyses that use observational data</a></p>
+    <p class="authors"><b>Kreif N</b>, Grieve R, Radice R, Sadique Z, Ramsahai R, Sekhon JS</p>
+    <p class="venue">Medical Decision Making, 32(6), 750–763</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1177/0272989x12448929" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="ci">
+  <div class="year">2012</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1515/1557-4679.1382" target="_blank" rel="noopener">Evaluating treatment effectiveness in patient subgroups: a comparison of propensity score methods with an automated matching approach</a></p>
+    <p class="authors">Radice R, Ramsahai R, Grieve R, <b>Kreif N</b>, Sadique Z, Sekhon JS</p>
+    <p class="venue">The International Journal of Biostatistics, 8(1)</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1515/1557-4679.1382" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+    </ul>
+  </div>
+</section>
+
+<section id="theme-pe">
+  <div class="wrap split">
+    <div class="side">
+      <h2>Health policy evaluation</h2>
+      <p class="side-note">9 journal articles</p>
+    </div>
+    <ul class="pub-list">
+<li class="pub" data-topics="pe">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1007/s10742-025-00361-w" target="_blank" rel="noopener">Key factors behind the adoption of a patient-facing technology in primary care: a structured approach to variable importance</a></p>
+    <p class="authors">Rodrigues D<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b>, Darzi A, Barahona M, Mayer E</p>
+    <p class="venue">Health Services and Outcomes Research Methodology, 26(3), 392–410</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1007/s10742-025-00361-w" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="pe">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle">Difference-in-differences</p>
+    <p class="authors">Powell-Jackson T, O&#x27;Neill S, <b>Kreif N</b></p>
+    <p class="venue">Colbourn T, Hargreaves J, eds. Evaluating Public Health Interventions. UCL Press <span class="tag">in press</span></p>
+  </div>
+</li>
+<li class="pub" data-topics="pe">
+  <div class="year">2025</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1002/hec.70014" target="_blank" rel="noopener">Digitalisation of access to primary care: is there an equity-efficiency trade-off?</a></p>
+    <p class="authors">Rodrigues D<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b>, Darzi A, Barahona M, Mayer E</p>
+    <p class="venue">Health Economics, 34(10), 1943–1962</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/hec.70014" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="pe">
+  <div class="year">2022</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1002/hec.4479" target="_blank" rel="noopener">The long-run effects of diagnosis related group payment on hospital lengths of stay in a publicly funded health care system: evidence from 15 years of micro data</a></p>
+    <p class="authors">Aragón MJ, Chalkley M, <b>Kreif N</b></p>
+    <p class="venue">Health Economics, 31(6), 956–972</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/hec.4479" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="pe">
+  <div class="year">2022</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1136/bmj-2022-070757" target="_blank" rel="noopener">Formalising triage in general practice towards a more equitable, safe, and efficient allocation of resources</a></p>
+    <p class="authors">Rodrigues D<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b>, Saravanakumar K, Delaney B, Barahona M, Mayer E</p>
+    <p class="venue">BMJ, 377, e070757</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1136/bmj-2022-070757" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="pe">
+  <div class="year">2020</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1111/1475-6773.13274" target="_blank" rel="noopener">A comparison of methods for health policy evaluation with controlled pre-post designs</a></p>
+    <p class="authors">O&#x27;Neill S, <b>Kreif N</b>, Sutton M, Grieve R</p>
+    <p class="venue">Health Services Research, 55(2), 328–338</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1111/1475-6773.13274" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="pe">
+  <div class="year">2019</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1016/j.jhealeco.2019.102226" target="_blank" rel="noopener">Paying for efficiency: incentivising same-day discharges in the English NHS</a></p>
+    <p class="authors">Gaughan J, Gutacker N, Grašič K, <b>Kreif N</b>, Siciliani L, Street A</p>
+    <p class="venue">Journal of Health Economics, 68, 102226</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1016/j.jhealeco.2019.102226" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="pe ci">
+  <div class="year">2019</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1016/j.socscimed.2018.11.032" target="_blank" rel="noopener">A framework for conducting economic evaluations alongside natural experiments</a></p>
+    <p class="authors">Deidda M, Geue C, <b>Kreif N</b>, Dundas R, McIntosh E</p>
+    <p class="venue">Social Science &amp; Medicine, 220, 353–361</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1016/j.socscimed.2018.11.032" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="pe">
+  <div class="year">2016</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1007/s10742-016-0146-8" target="_blank" rel="noopener">Estimating causal effects: considering three alternatives to difference-in-differences estimation</a></p>
+    <p class="authors">O’Neill S, <b>Kreif N</b>, Grieve R, Sutton M, Sekhon JS</p>
+    <p class="venue">Health Services and Outcomes Research Methodology, 16(1-2), 1–21</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1007/s10742-016-0146-8" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="pe">
+  <div class="year">2016</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1002/hec.3258" target="_blank" rel="noopener">Examination of the synthetic control method for evaluating health policies with multiple treated units</a></p>
+    <p class="authors"><b>Kreif N</b>, Grieve R, Hangartner D, Turner AJ, Nikolova S, Sutton M</p>
+    <p class="venue">Health Economics, 25(12), 1514–1528</p>
+    <p class="takeaway">We extend the synthetic control method to policies with multiple treated units; re-analyzing a hospital pay-for-performance scheme, we find no significant reduction in mortality for the incentivized conditions, in contrast to the earlier difference-in-differences analysis.</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/hec.3258" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+    </ul>
+  </div>
+</section>
+
+<section id="theme-gh">
+  <div class="wrap split">
+    <div class="side">
+      <h2>Global health policy</h2>
+      <p class="side-note">15 journal articles</p>
+    </div>
+    <ul class="pub-list">
+<li class="pub" data-topics="gh pe">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1093/heapol/czag081" target="_blank" rel="noopener">Does increasing overall health expenditure reduce inequality in under-5 mortality rates between provinces in Indonesia?</a></p>
+    <p class="authors">Ochoa-Moreno I, <b>Kreif N</b>, Hidayat T, Kurnia S, Hidayat B, Griffin S</p>
+    <p class="venue">Health Policy and Planning, 41(7), 1242–1254</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1093/heapol/czag081" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="gh">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle">Depression symptoms, employment, and household economic outcomes: evidence from the MIND-ECON trial in South Africa</p>
+    <p class="authors">Lordemus S, Jacob N, Jacobs R, Suhrcke M, <b>Kreif N</b>, Cleary S, Myers-Franchi B, Mutyambizi-Mafunda V</p>
+    <p class="venue">Submitted to World Development</p>
+    <p class="pub-actions"><a href="https://doi.org/10.2139/ssrn.6773071" target="_blank" rel="noopener">Preprint</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="gh pe">
+  <div class="year">2025</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1016/j.ehb.2025.101508" target="_blank" rel="noopener">Public policies and femicides during the COVID-19 pandemic: evidence from São Paulo, Brazil</a></p>
+    <p class="authors">Diaz MD, Pereda P, Rocha F, Oliveira P, Árabe I, <b>Kreif N</b>, Lordemus S, Moreno-Serra R</p>
+    <p class="venue">Economics &amp; Human Biology, 58, 101508</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1016/j.ehb.2025.101508" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="gh pe">
+  <div class="year">2025</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1016/j.regsciurbeco.2025.104091" target="_blank" rel="noopener">Health facility quality peer effects: are financial incentives necessary?</a></p>
+    <p class="authors">McGuire F<sup class="trainee" title="Student or trainee co-author">‡</sup>, Santos R, Smith PC, Stacey N, Edoka I, <b>Kreif N</b></p>
+    <p class="venue">Regional Science and Urban Economics, 112, 104091</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1016/j.regsciurbeco.2025.104091" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="gh pe">
+  <div class="year">2025</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1002/hec.4899" target="_blank" rel="noopener">Do health care quality improvement policies work for all? Distributional effects by baseline quality in South Africa</a></p>
+    <p class="authors">McGuire F<sup class="trainee" title="Student or trainee co-author">‡</sup>, Smith PC, Stacey N, Edoka I, <b>Kreif N</b></p>
+    <p class="venue">Health Economics, 34(1), 175–199</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/hec.4899" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="gh">
+  <div class="year">2024</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1111/obes.12603" target="_blank" rel="noopener">Public healthcare financing during counterinsurgency efforts: evidence from Colombia</a></p>
+    <p class="authors">Lordemus S, <b>Kreif N</b>, Moreno-Serra R</p>
+    <p class="venue">Oxford Bulletin of Economics and Statistics, 86(5), 1230–1259</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1111/obes.12603" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="gh">
+  <div class="year">2024</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1016/j.ssmph.2024.101626" target="_blank" rel="noopener">The effect of conflict-related violence intensity and alcohol use on mental health: the case of Colombia</a></p>
+    <p class="authors">Salas-Ortiz A, Moreno-Serra R, <b>Kreif N</b>, Suhrcke M, Casas G</p>
+    <p class="venue">SSM - Population Health, 25, 101626</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1016/j.ssmph.2024.101626" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="gh">
+  <div class="year">2024</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1016/j.worlddev.2023.106461" target="_blank" rel="noopener">COVID-19 and violence against women: current knowledge, gaps, and implications for public policy</a></p>
+    <p class="authors">Rocha F, Diaz MDM, Pereda PC, Árabe IB, Cavalcanti F, Lordemus S, <b>Kreif N</b>, Moreno-Serra R</p>
+    <p class="venue">World Development, 174, 106461</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1016/j.worlddev.2023.106461" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="gh">
+  <div class="year">2022</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1007/s40258-022-00752-x" target="_blank" rel="noopener">Estimating the health effects of expansions in health expenditure in Indonesia: a dynamic panel data approach</a></p>
+    <p class="authors">Moler-Zapata S<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b>, Ochalek J, Mirelman AJ, Nadjib M, Suhrcke M</p>
+    <p class="venue">Applied Health Economics and Health Policy, 20(6), 881–891</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1007/s40258-022-00752-x" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="gh">
+  <div class="year">2022</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1016/j.ehb.2021.101074" target="_blank" rel="noopener">The impact of civil conflict on child health: evidence from Colombia</a></p>
+    <p class="authors"><b>Kreif N</b>, Mirelman A, Suhrcke M, Buitrago G, Moreno-Serra R</p>
+    <p class="venue">Economics &amp; Human Biology, 44, 101074</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1016/j.ehb.2021.101074" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="gh">
+  <div class="year">2021</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1002/hec.4368" target="_blank" rel="noopener">The effect of distance on maternal institutional delivery choice: evidence from Malawi</a></p>
+    <p class="authors">McGuire F<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b>, Smith PC</p>
+    <p class="venue">Health Economics, 30(9), 2144–2167</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/hec.4368" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="gh">
+  <div class="year">2021</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1186/s12939-021-01381-x" target="_blank" rel="noopener">A light of hope? Inequalities in mental health before and after the peace agreement in Colombia: a decomposition analysis</a></p>
+    <p class="authors">León-Giraldo S, Casas G, Cuervo-Sánchez JS, González-Uribe C, Olmos A, <b>Kreif N</b>, Suhrcke M, Bernal O, Moreno-Serra R</p>
+    <p class="venue">International Journal for Equity in Health, 20(1), 39</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1186/s12939-021-01381-x" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="gh">
+  <div class="year">2021</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1186/s12939-021-01555-7" target="_blank" rel="noopener">Inequalities in catastrophic health expenditures in conflict-affected areas and the Colombian peace agreement: an Oaxaca–Blinder change decomposition analysis</a></p>
+    <p class="authors">León-Giraldo S, Cuervo-Sánchez JS, Casas G, González-Uribe C, <b>Kreif N</b>, Bernal O, Moreno-Serra R</p>
+    <p class="venue">International Journal for Equity in Health, 20(1), 217</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1186/s12939-021-01555-7" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="gh pe">
+  <div class="year">2021</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1002/hec.4228" target="_blank" rel="noopener">Facility standards and the quality of public sector primary care: evidence from South Africa&#x27;s &quot;Ideal Clinics&quot;</a></p>
+    <p class="authors">Stacey N, Mirelman A, <b>Kreif N</b>, Suhrcke M, Hofman K, Edoka I</p>
+    <p class="venue">Health Economics, 30(7), 1543–1558</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1002/hec.4228" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="gh ci">
+  <div class="year">2021</div>
+  <div>
+    <p class="ptitle"><a href="https://gatesopenresearch.org/articles/5-1/v1" target="_blank" rel="noopener">From impact evaluation to decision-analysis: assessing the extent and quality of evidence on &#x27;value for money&#x27; in health impact evaluations in low- and middle-income countries</a></p>
+    <p class="authors"><b>Kreif N</b>, Mirelman AJ, Love-Koh J, Kim S<sup class="trainee" title="Student or trainee co-author">‡</sup>, Moreno-Serra R, Revill P, Sculpher M, Suhrcke M</p>
+    <p class="venue">Gates Open Research, 5, 1</p>
+    <p class="pub-actions"><a href="https://gatesopenresearch.org/articles/5-1/v1" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="gh">
+  <div class="year">2020</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.12688/gatesopenres.13201.1" target="_blank" rel="noopener">What next after GDP-based cost-effectiveness thresholds?</a></p>
+    <p class="authors">Chi YL, Blecher M, Chalkidou K, Culyer A, Claxton K, Edoka I, Glassman A, <b>Kreif N</b>, Jones I, Mirelman AJ, Nadjib M, Morton A, Norheim OF, Ochalek J, Prinja S, Ruiz F, Teerawattananon Y, Vassall A, Winch A</p>
+    <p class="venue">Gates Open Research, 4, 176</p>
+    <p class="pub-actions"><a href="https://doi.org/10.12688/gatesopenres.13201.1" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+    </ul>
+  </div>
+</section>
+
+<section id="theme-heor">
+  <div class="wrap split">
+    <div class="side">
+      <h2>Applications in health economics and outcomes research</h2>
+      <p class="side-note">11 journal articles</p>
+    </div>
+    <ul class="pub-list">
+<li class="pub" data-topics="heor">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle">Healthcare utilization and cost associated with depression among people with Alzheimer&#x27;s disease: a retrospective cohort analysis</p>
+    <p class="authors">Yip O, <b>Kreif N</b>, Clayton E, Lee K</p>
+    <p class="venue">Journal of Managed Care &amp; Specialty Pharmacy <span class="tag">in press</span></p>
+  </div>
+</li>
+<li class="pub" data-topics="heor ci">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1200/op-26-00493" target="_blank" rel="noopener">Real-world comparative effectiveness of abiraterone, apalutamide, enzalutamide, and docetaxel doublets for metastatic hormone-sensitive prostate cancer</a></p>
+    <p class="authors">Nwogu IB<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b>, Khan HM, Etzioni R, Carlson JJ</p>
+    <p class="venue">JCO Oncology Practice <span class="tag">online ahead of print</span></p>
+    <p class="pub-actions"><a href="https://doi.org/10.1200/op-26-00493" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="heor">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.18553/jmcp.2026.32.8.932" target="_blank" rel="noopener">Health care resource utilization and costs in patients with acute myeloid leukemia treated with posttransplant maintenance therapy</a></p>
+    <p class="authors">Kneitel R<sup class="trainee" title="Student or trainee co-author">‡</sup>, Lee K, <b>Kreif N</b></p>
+    <p class="venue">Journal of Managed Care &amp; Specialty Pharmacy, 32(8), 932–944</p>
+    <p class="pub-actions"><a href="https://doi.org/10.18553/jmcp.2026.32.8.932" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="heor ci">
+  <div class="year">2026</div>
+  <div>
+    <p class="ptitle">Comparative effectiveness of lutetium Lu-177 vipivotide tetraxetan versus cabazitaxel in patients with metastatic castration-resistant prostate cancer</p>
+    <p class="authors">Nwogu IB<sup class="trainee" title="Student or trainee co-author">‡</sup>, <b>Kreif N</b>, Khan HM, Etzioni R, Carlson JJ</p>
+    <p class="venue">Submitted to International Journal of Cancer</p>
+  </div>
+</li>
+<li class="pub" data-topics="heor">
+  <div class="year">2025</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1371/journal.pmed.1004506" target="_blank" rel="noopener">Psychological distress in adolescence and later economic and health outcomes in the US population</a></p>
+    <p class="authors">Counts NZ, <b>Kreif N</b>, Creedon TB, Bloom DE</p>
+    <p class="venue">PLOS Medicine, 22(1), e1004506</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1371/journal.pmed.1004506" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="heor">
+  <div class="year">2014</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1016/s2352-3018(14)70018-9" target="_blank" rel="noopener">Health-related quality-of-life of people with HIV in the era of combination antiretroviral treatment: a cross-sectional comparison with the general population</a></p>
+    <p class="authors">Miners A, Phillips A, <b>Kreif N</b>, Rodger A, Speakman A, Fisher M, Anderson J, Collins S, Hart G, Sherr L, Lampe FC</p>
+    <p class="venue">The Lancet HIV, 1(1), e32–e40</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1016/s2352-3018(14)70018-9" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="heor">
+  <div class="year">2014</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1007/s11136-013-0442-5" target="_blank" rel="noopener">Validation of the SF-36 in patients with endometriosis</a></p>
+    <p class="authors">Stull DE, Wasiak R, <b>Kreif N</b>, Raluy M, Colligs A, Seitz C, Gerlinger C</p>
+    <p class="venue">Quality of Life Research, 23(1), 103–117</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1007/s11136-013-0442-5" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="heor">
+  <div class="year">2013</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1007/s40273-013-0064-3" target="_blank" rel="noopener">Overview of parametric survival analysis for health-economic applications</a></p>
+    <p class="authors">Ishak KJ, <b>Kreif N</b>, Benedict A, Muszbek N</p>
+    <p class="venue">PharmacoEconomics, 31(8), 663–675</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1007/s40273-013-0064-3" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="heor">
+  <div class="year">2012</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1185/03007995.2012.691422" target="_blank" rel="noopener">Modeling survival in hepatocellular carcinoma</a></p>
+    <p class="authors">Muszbek N, <b>Kreif N</b>, Valderrama A, Benedict A, Ishak J, Ross DP</p>
+    <p class="venue">Current Medical Research and Opinion, 28(7), 1141–1153</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1185/03007995.2012.691422" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="heor">
+  <div class="year">2011</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1007/s12094-011-0748-0" target="_blank" rel="noopener">Cost-effectiveness evaluation of sunitinib as first-line targeted therapy for metastatic renal cell carcinoma in Spain</a></p>
+    <p class="authors">Calvo Aller E, Maroto P, <b>Kreif N</b>, González Larriba JL, López-Brea M, Castellano D, Martí B, Díaz Cerezo S</p>
+    <p class="venue">Clinical and Translational Oncology, 13(12), 869–877</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1007/s12094-011-0748-0" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="heor">
+  <div class="year">2010</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1159/000286233" target="_blank" rel="noopener">Cost-effectiveness analysis of anastrozole versus tamoxifen in adjuvant therapy for early-stage breast cancer: a health-economic analysis based on the 100-month analysis of the ATAC trial and the German health system</a></p>
+    <p class="authors">Lux MP, Wöckel A, Benedict A, Buchholz S, <b>Kreif N</b>, Harbeck N, Kreienberg R, Kaufmann M, Beckmann MW, Jonat W, Hadji P, Distler W, Raab G, Tesch H, Weyers G, Possinger K, Schneeweiss A</p>
+    <p class="venue">Onkologie, 33(4), 155–166</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1159/000286233" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+<li class="pub" data-topics="heor">
+  <div class="year">2009</div>
+  <div>
+    <p class="ptitle"><a href="https://doi.org/10.1185/03007990902738810" target="_blank" rel="noopener">Quality of life and drug costs associated with switching antipsychotic medication to once-daily extended release quetiapine fumarate in patients with schizophrenia</a></p>
+    <p class="authors">Järbrink K, <b>Kreif N</b>, Benedict A, Locklear J</p>
+    <p class="venue">Current Medical Research and Opinion, 25(3), 709–716</p>
+    <p class="pub-actions"><a href="https://doi.org/10.1185/03007990902738810" target="_blank" rel="noopener">Paper</a></p>
+  </div>
+</li>
+    </ul>
+  </div>
+</section>
+</div>
 </main>
 
 <footer class="site-footer">
@@ -606,6 +1371,42 @@
     <span><a href="mailto:nkreif@uw.edu">nkreif@uw.edu</a> · The CHOICE Institute, University of Washington</span>
   </div>
 </footer>
-<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+<script>
+document.getElementById('y').textContent = new Date().getFullYear();
+// Two arrangements of the same list (by type, by research theme) and a theme filter that works in both.
+var state = { view: location.hash === '#by-theme' ? 'theme' : 'type', topic: '' };
+function render() {
+  document.querySelectorAll('.view').forEach(function (v) { v.hidden = v.dataset.view !== state.view; });
+  document.querySelectorAll('.view-switch .chip').forEach(function (b) {
+    b.setAttribute('aria-pressed', b.dataset.view === state.view ? 'true' : 'false');
+  });
+  document.querySelectorAll('.topics .chip').forEach(function (b) {
+    b.setAttribute('aria-pressed', b.dataset.topic === state.topic ? 'true' : 'false');
+  });
+  document.querySelectorAll('.pub-list .pub').forEach(function (li) {
+    li.hidden = !!state.topic && (li.dataset.topics || '').split(' ').indexOf(state.topic) < 0;
+  });
+  document.querySelectorAll('.view section[id]').forEach(function (sec) {
+    sec.hidden = !sec.querySelector('.pub:not([hidden])');
+  });
+}
+document.querySelectorAll('.view-switch .chip').forEach(function (b) {
+  b.addEventListener('click', function () { state.view = b.dataset.view; render(); });
+});
+document.querySelectorAll('.topics .chip').forEach(function (b) {
+  b.addEventListener('click', function () { state.topic = b.dataset.topic; render(); });
+});
+render();
+</script>
+<script>
+// Open each page at the top, except for links to a section (#...) and Back/Forward navigation.
+(function () {
+  var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+  if (location.hash || (nav && nav.type === 'back_forward')) return;
+  var top = function () { window.scrollTo(0, 0); };
+  top();
+  window.addEventListener('load', top);
+})();
+</script>
 </body>
 </html>
